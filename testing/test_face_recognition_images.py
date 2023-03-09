@@ -9,7 +9,7 @@ face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_fronta
 #img = io.imread('PhilPuk/ai_face_recognition/testing/test.jpg')
 # FULLPATH:'PhilPuk/ai_face_recognition/testing/test.jpg'
 # NAME PATH:"test.jpg"
-img = cv2.imread("test.jpg")
+img = io.imread("C:/Users/Student/Documents/AI_Face_Recognition/ai_face_recognition/ai_face_recognition/testing/test2.jpg")
 
 # Convert into grayscale  
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)  

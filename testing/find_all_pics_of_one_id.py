@@ -6,7 +6,7 @@ import cv2
 sys.path.append('C:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition')
 import src.face_recognition as fr
 
-id = "10002"
+id = "10168"
 dir_images = "C:/Users/Student/Documents/img_align_celeba/"
 dir_txt = "C:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/dataset/identity_CelebA.txt"
 

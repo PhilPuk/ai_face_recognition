@@ -3,19 +3,26 @@ from skimage import io
 
 print(cv2.__version__)
 
+
+
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
   
 # Read the input image    
 #img = io.imread('PhilPuk/ai_face_recognition/testing/test.jpg')
 # FULLPATH:'PhilPuk/ai_face_recognition/testing/test.jpg'
 # NAME PATH:"test.jpg"
-img = io.imread("C:/Users/Student/Documents/AI_Face_Recognition/ai_face_recognition/ai_face_recognition/testing/test2.jpg")
+img = io.imread("C:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/testing/test2.jpg")
 
 # Convert into grayscale  
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)  
 
 # Detect faces  
-faces = face_cascade.detectMultiScale(gray, 1.1, 4)  
+faces = face_cascade.detectMultiScale(
+            gray,     
+            scaleFactor=1.2,
+            minNeighbors=5,     
+            minSize=(20, 20)
+        ) 
   
 # Draw rectangle around the faces  
 for (x, y, w, h) in faces:  

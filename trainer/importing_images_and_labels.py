@@ -10,4 +10,4 @@ def getImagesAndLabels(path):
     for imagePath in imagePaths:
         PIL_img = Image.open(imagePath).convert('L') # load image and grayscale
         img_numpy = np.array(PIL_img, 'uint8')
-        id 
+        id

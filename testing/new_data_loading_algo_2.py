@@ -1,3 +1,4 @@
+#Return images in a list of list, with the ids corresponding to the lists
 def getIDS(path):
     # Collect all existing ids
     images = [[]]

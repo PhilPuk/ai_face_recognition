@@ -5,6 +5,10 @@ import os
 id_amount = 150#10177 #max
 
 def getIDS(path):
+    '''
+    Takes path to the dataset folder
+    
+    '''
     # Collect all existing ids
     images = [[]]
     ids = []

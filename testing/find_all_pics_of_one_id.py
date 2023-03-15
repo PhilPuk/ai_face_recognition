@@ -20,7 +20,10 @@ def findAllPicturesOf_ID(id, showImages):
 
     img_list = []
     loaded_images = []
+    img_list = []
+    loaded_images = []
 
+    with open(dir_txt) as f:
     with open(dir_txt) as f:
         # Collect all lines of the txt
         lines = f.readlines()
@@ -28,12 +31,22 @@ def findAllPicturesOf_ID(id, showImages):
             text = line.split()
         if text[1] == id:
             img_list.append(text[0])
+        if text[1] == id:
+            img_list.append(text[0])
 
     print(img_list)
     if showImages:
         for i in img_list:
             loaded_images.append(io.imread(dir_images + i))
+    print(img_list)
+    if showImages:
+        for i in img_list:
+            loaded_images.append(io.imread(dir_images + i))
 
+        for i in range(len(img_list)):
+            cv2.imshow(f'image{i}', loaded_images[i])  
+        cv2.waitKey()
+    return img_list
         for i in range(len(img_list)):
             cv2.imshow(f'image{i}', loaded_images[i])  
         cv2.waitKey()

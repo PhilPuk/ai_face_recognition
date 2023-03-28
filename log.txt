@@ -1,0 +1,47 @@
+2023-03-28 14:49:33.280807: [INFO] Create my_dataset, my_dataset/images and my_dataset/pre_processed folders.
+2023-03-28 14:49:33.281735: [INFO] Created names.txt file.2023-03-28 15:29:11.830345: [INFO] Initializing program!
+2023-03-28 15:30:17.814521: [INFO] Initializing program!
+2023-03-28 15:30:48.677776: [INFO] Finished initializing! Programm starting!
+2023-03-28 15:30:48.679776: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-28 15:30:48.679776: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Help, (6) Exit
+2023-03-28 15:30:48.680776: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-28 15:30:54.431351: [USR_INFO] Dataset:
+2023-03-28 15:30:54.432328: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Help, (6) Exit
+2023-03-28 15:30:54.433327: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-28 15:31:02.208811: [USR_INFO] Modell:
+2023-03-28 15:31:02.209800: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Help, (6) Exit
+2023-03-28 15:31:02.210782: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-28 15:31:04.175704: [USR_INFO] Detection:
+2023-03-28 15:31:04.176684: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Help, (6) Exit
+2023-03-28 15:31:04.177664: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-28 15:31:05.175605: [USR_INFO] Recognition:
+2023-03-28 15:31:05.176604: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Help, (6) Exit
+2023-03-28 15:31:05.178605: [USER_INPUT] Input:  - INPUT: [5]
+2023-03-28 15:31:05.888589: [USR_INFO] Help:
+2023-03-28 15:31:05.889587: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Help, (6) Exit
+2023-03-28 15:31:05.890603: [USER_INPUT] Input:  - INPUT: [6]
+2023-03-28 15:31:06.575630: [INFO] Exiting programm.
+2023-03-28 15:31:19.301129: [INFO] Initializing program!
+2023-03-28 15:31:49.791724: [INFO] Finished initializing! Programm starting!
+2023-03-28 15:31:49.792714: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-28 15:31:49.793687: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Help, (6) Exit
+2023-03-28 15:31:49.794715: [USER_INPUT] Input:  - INPUT: [8]
+2023-03-28 15:31:53.087516: [ERROR] Invalid input, pls try again!
+2023-03-28 15:31:53.088520: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Help, (6) Exit
+2023-03-28 15:31:53.089566: [USER_INPUT] Input:  - INPUT: [44]
+2023-03-28 15:32:19.057024: [ERROR] Invalid input, pls try again!
+2023-03-28 15:32:19.058021: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Help, (6) Exit
+2023-03-28 15:32:19.059043: [USER_INPUT] Input:  - INPUT: [d]
+2023-03-28 15:32:20.383428: [ERROR] Invalid input, pls try again!
+2023-03-28 15:32:20.384428: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Help, (6) Exit
+2023-03-28 15:32:20.385428: [USER_INPUT] Input:  - INPUT: []
+2023-03-28 15:32:20.881399: [ERROR] Invalid input, pls try again!
+2023-03-28 15:32:20.882421: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Help, (6) Exit
+2023-03-28 15:32:20.883422: [USER_INPUT] Input:  - INPUT: []
+2023-03-28 15:32:21.784379: [ERROR] Invalid input, pls try again!
+2023-03-28 15:32:21.785376: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Help, (6) Exit
+2023-03-28 15:32:21.786345: [USER_INPUT] Input:  - INPUT: [5]
+2023-03-28 15:32:22.768319: [USR_INFO] Help:
+2023-03-28 15:32:22.770319: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Help, (6) Exit
+2023-03-28 15:32:22.771318: [USER_INPUT] Input:  - INPUT: [6]
+2023-03-28 15:32:25.520231: [INFO] Exiting programm.

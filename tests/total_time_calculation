@@ -1,0 +1,15 @@
+import math
+def calculateTimeForTraining(epochs,already_trained_epochs=0):
+            '''
+            Returns approximately the time it takes to train all epochs.
+            Only works if you know how many epochs were already trained!
+            Formula: y = 27,336*e^(0,0221*x)
+            @param: epochs: Amount of epochs.
+            '''
+            total = 0
+            for i in range(already_trained_epochs,epochs+already_trained_epochs,1):
+                total += 27.336*math.exp(0.0221*i)
+            return total
+        
+time = calculateTimeForTraining(10,30)
+print(time)

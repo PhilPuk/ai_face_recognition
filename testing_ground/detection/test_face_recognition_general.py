@@ -1,19 +1,18 @@
 import cv2
-print(cv2.__version__)
 
-app_name = 'Face_Recognition'
-cascadePath = "C:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/testing/haarcascade_frontalface_default.xml"
+app_name = 'preview'
+cascadePath = "./dataset/haarcascade_frontalface_default.xml"
 faceCascade = cv2.CascadeClassifier(cascadePath)
 
 cv2.namedWindow(app_name)
 vc = cv2.VideoCapture(0)
-
+# Camera loop
 while True:
-    # Capture frame-by-frame
+    # Capture frame-by-frame from camera
     ret, frame = vc.read()
-    if not ret:
-        print("Empty frame")
-    else:
+    # Check if camera frame exists
+    if ret:
+        # Grayscale image from camera
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         #Algorithm to detect faces
         faces = faceCascade.detectMultiScale(
@@ -27,8 +26,9 @@ while True:
             cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
         # Display resulting frame
         cv2.imshow(app_name, frame)
-
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    # Press ESC to end
+    key = cv2.waitKey(20)
+    if key == 27:
         break
 
 # Free memory and close programm

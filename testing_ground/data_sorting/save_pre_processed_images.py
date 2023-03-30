@@ -36,12 +36,20 @@ def PreProcessAndSaveImages(path):
         status = round(float(i/len(id_pathes)*100),2)
         print("Status pre-processing and saving: " + str(status) + "%" )
 
-def PreProcessAndSaveImagesNewPerson(src_path, saving_path, id, new_resolution=[256,192]):
+def PreProcessAndSaveImagesNewPerson(src_path, saving_path, id):
+    '''
+    Pre-processes all images in given path and saves them and given path for saving.
+    @param src_path: Path where to find the images.
+    @param saving_path: Path of pre_processed folder of your dataset.
+    @param id: Id of person, just as the one in names.txt or as the folder name.
+    '''
+    # List files in given path
     pathes = os.listdir(src_path)
+    # Counter for image names
     img_name = 1
     for img_path in pathes:
+        # Load up image and convert it to gray scaled image
         PIL_img = Image.open(src_path + "/" + img_path).convert('L') 
-        new_image = PIL_img.resize((new_resolution[0],new_resolution[1]))
         # Convert into np.array
         img_numpy = np.array(PIL_img, 'uint8')
         # Detect faces in image
@@ -51,10 +59,8 @@ def PreProcessAndSaveImagesNewPerson(src_path, saving_path, id, new_resolution=[
             cv2.rectangle(img_numpy, (x, y), (x + w, y + h), (255, 0, 0), 2) 
         # Transform back into image
         im = Image.fromarray(img_numpy[y:y+h,x:x+w])
-            # Save into ids folder
+        # Save into ids folder
         im.save(saving_path + "/" + str(id) + "/" + str(id) + "." + str(img_name) + ".jpeg")    
         img_name += 1
 
-#PreProcessAndSaveImages(path)
-
-PreProcessAndSaveImagesNewPerson("C:/Users/Student/Documents/datasets/personal_set/images/2", "C:/Users/Student/Documents/datasets/personal_set/pre_processed", 2)
+PreProcessAndSaveImagesNewPerson("./my_dataset/images/4", "./my_dataset/pre_processed", 4)

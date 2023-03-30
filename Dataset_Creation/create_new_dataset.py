@@ -1,6 +1,6 @@
 import sys
 import os
-sys.path.append("C:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition")
+sys.path.append("./")
 from util.utils import msgWithTime
 def createNewDataSetDir():
     os.mkdir(os.path.join("", "my_dataset"))
@@ -10,4 +10,4 @@ def createNewDataSetDir():
     with open("my_dataset/names.txt", "w") as f:
         msgWithTime("Created names.txt file.", 1)
 
-createNewDataSetDir()
+#createNewDataSetDir()

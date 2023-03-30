@@ -16,4 +16,4 @@ def renameFilesInDirectory(path, new_name_base, file_extension):
         count+=1
         
 # Test sample         
-renameFilesInDirectory("C:/Users/Student/Documents/datasets/personal_set/1/", "1", ".jpeg")
+renameFilesInDirectory("./my_dataset/pre_processed/1/", "1", ".jpeg")

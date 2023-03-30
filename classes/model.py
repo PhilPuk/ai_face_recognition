@@ -5,15 +5,15 @@ import numpy as np
 import time
 from skimage import io
 import sys
-sys.path.append('C:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition')
-from src.facial_recognition import face_recognition_image as rec
+sys.path.append('./')
 from util.utils import msgWithTime
-
+from Image_Recognition import face_recognition as rec
+from src.misc import get_person_dict as pDict
 def printMessageWithTime(message, start_time=0.0, code="INFO"):
-            print(f"[{code}] {message} - Time: {time.time() - start_time}s")
+            return (f"[{code}] {message} - Time: {time.time() - start_time}s")
 
 class Model():
-    def __init__(self, model_path = "",haarcascade_path="C:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/dataset/haarcascade_frontalface_default.xml", names_txt_path = ""):
+    def __init__(self, model_path = "",haarcascade_path="./dataset/haarcascade_frontalface_default.xml", names_txt_path = ""):
         '''
         INIT of model class. Creates a cv2.CascadeClassifier and a cv2.face.LBPHFaceRecognizer_create
         @param model_path: Where the model should be saved, standart set to "".
@@ -36,8 +36,8 @@ class Model():
         Load already existing model.
         @param model_path: Path of the model.
         '''
-        self.model_path = model_path
         self.recognizer.read(model_path)
+        self.model_path = model_path
     
     def trainExistingModel(self, data_set_path, epochs, already_trained_epochs=0):
         '''
@@ -47,17 +47,20 @@ class Model():
         Example: .../dataset/230/230.1.jpg .
         @param epochs: For how many epochs should the model be trained.
         '''
+        data_set_path += "/" + "pre_processed"
         def printMessageWithTime(message, start_time=0.0):
-            print(f"[INFO] {message} - Time of epoch: {time.time() - start_time}s")
+            return f"[INFO] {message} - Time of epoch: {time.time() - start_time}s"
         def getImagesAndLabelsPreProcessed(path):
             id_pathes = os.listdir(path)
             ids = []
             face_Samples = []
             id = 1
             for id_path in id_pathes:
-                tmp_pic_path_list = os.listdir(path + "/" + id_path)
+                tmp_path = path + "/" + id_path
+                tmp_pic_path_list = os.listdir(tmp_path)
                 for tmp_pic_path in tmp_pic_path_list:
-                    PIL_img = Image.open(path + "/" + id_path + "/" + tmp_pic_path)
+                    new_path = path + "/" + id_path + "/" + tmp_pic_path
+                    PIL_img = Image.open(new_path)
                     img_numpy = np.array(PIL_img, 'uint8')
                     face_Samples.append(img_numpy)
                     ids.append(id)
@@ -76,13 +79,13 @@ class Model():
             '''
             total_lin = 0.0
             for i in range(already_trained_epochs,epochs+already_trained_epochs,1):
-                total_lin += 0.9358*i+25.179
+                total_lin += 0.5675*i+0.7143
             return total_lin
         
         before_time = time.time()
         total_time = 0.0
         approx_total_time_lin = calculateTimeForTraining(epochs, already_trained_epochs)
-        print(f"Approximately total time will be: {round(approx_total_time_lin,3)}s")
+        msgWithTime(f"Approximately total time will be: {round(approx_total_time_lin,3)}s", 2)
         faces, ids = getImagesAndLabelsPreProcessed(data_set_path)
         for i in range(epochs):
             start_time = time.time()
@@ -93,8 +96,9 @@ class Model():
                 percent_lin = round(total_time/approx_total_time_lin*100,2)
             except:
                 percent_lin = "Error!"
-            printMessageWithTime(f"Epoch time: {i+1}/{epochs} - Status %: {percent_lin}", start_time=start_time)
-        print(f"Training completed - Total training time: {time.time() - before_time} - Calculated time correctness: {round(total_time / approx_total_time_lin,2)*100}")
+
+            msgWithTime(printMessageWithTime(f"Epoch time: {i+1}/{epochs} - Status %: {percent_lin}", start_time=start_time),1)
+        msgWithTime(f"Training completed - Total training time: {time.time() - before_time} - Calculated time correctness: {round(total_time / approx_total_time_lin,2)*100}", 1)
         
     def createModel(self, model_path, data_set_path):
         '''
@@ -104,8 +108,9 @@ class Model():
         Dataset should have the following directory order: .../dataset/"id"/"id"."numberOfPictureInOrder".extension.
         Example: .../dataset/230/230.1.jpg .
         '''
-        print("Creating model!")
+        msgWithTime("Creating model", 2)
         def getImagesAndLabelsPreProcessed(path):
+            path = path + "/" + "pre_processed"
             id_pathes = os.listdir(path)
             ids = []
             face_Samples = []
@@ -113,19 +118,21 @@ class Model():
             for index, id_path in enumerate(id_pathes):
                 tmp_pic_path_list = os.listdir(path + "/" + id_path)
                 for tmp_pic_path in tmp_pic_path_list:
-                    PIL_img = Image.open(path + "/" + id_path + "/" + tmp_pic_path)
+                    new_path = path + "/" + id_path + "/" + tmp_pic_path
+                    PIL_img = Image.open(new_path)
                     img_numpy = np.array(PIL_img, 'uint8')
                     face_Samples.append(img_numpy)
                     ids.append(id)
-                print(f"[LOADING DATASET] Status: {index+1} / {len(id_pathes)} - Status %: {round((index+1)/len(id_pathes)*100,2)}")
+                msgWithTime(f"[LOADING DATASET] Status: {index+1} / {len(id_pathes)} - Status %: {round((index+1)/len(id_pathes)*100,2)}",2)
                 id += 1
             return face_Samples, ids
+        
         def trainer(model_path, recognizer, faces, ids):
             recognizer.train(faces,np.array(ids))
             recognizer.write(model_path)
         faces, ids = getImagesAndLabelsPreProcessed(data_set_path)
         trainer(model_path,self.recognizer,faces,ids)
-        print("Model created!")
+        msgWithTime("Model created!", 2)
     
     def predict_and_show_image(self, img_path):
         '''
@@ -133,24 +140,25 @@ class Model():
         @param img_path: The path of the image to predict of.
         '''
         start_time = time.time()
-        printMessageWithTime(f"Starting prediction for: {img_path}",start_time=start_time)
+        person_dict = pDict.getNamesAndIDSfromTXT("C:/Users/Student/Documents/datasets/personal_set/names.txt")
+        msgWithTime(printMessageWithTime(f"Starting prediction for: {img_path}",start_time=start_time),2)
         img = io.imread(img_path)
         gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         img, faces = rec.face_detecting(img, gray_img, minneig=8)
-        # Display the output
-        img = rec.face_recognition_image(img,gray_img, faces, self.recognizer, font_scale = 1.5)
-        printMessageWithTime("Finished prediction",start_time=start_time)
+        img = rec.face_recognition_image(img,gray_img, faces, self.recognizer,person_dict, font_scale = 1.5)
+        #img = rec.face_recognition_image(img, gray_img, self.recognizer, person_dict)
+        msgWithTime(printMessageWithTime("Finished prediction",start_time=start_time),2)
         rec.printingWindow(img)
       
-#def predictionEditedImages(path):
-    # img_pathes = os.listdir(path)
-    # for img_path in img_pathes:
-    #     model.predict_and_show_image(path + img_path)
+# def predictionEditedImages(path):
+#     img_pathes = os.listdir(path)
+#     for img_path in img_pathes:
+#         model.predict_and_show_image(path + img_path)
         
 # Test sample
 #model = Model()
-#model.createModel("C:/Users/Student/Documents/models/personal_model.xml", "C:/Users/Student/Documents/datasets/personal_set/pre_processed")
-#model.trainExistingModel("C:/Users/Student/Documents/datasets/pp_15_set", 500, 0)
+#model.createModel("./models/my_model.xml", "./my_dataset/pre_processed")
+#model.trainExistingModel("C:/Users/Student/Documents/datasets/pp_15_set", 1, 0)
 
-#predictionEditedImages("C:/Users/Student/Documents/micro_data_set/images/2/")
+#predictionEditedImages("C:/Users/Student/Documents/datasets/micro_data_set/images/2/")
 #predictionEditedImages("C:/Users/Student/Desktop/edited_images/")

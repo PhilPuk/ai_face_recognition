@@ -45,3 +45,1462 @@
 2023-03-28 15:32:22.770319: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Help, (6) Exit
 2023-03-28 15:32:22.771318: [USER_INPUT] Input:  - INPUT: [6]
 2023-03-28 15:32:25.520231: [INFO] Exiting programm.
+2023-03-29 11:45:09.501529: [INFO] Initializing program!
+2023-03-29 11:45:09.928542: [INFO] Finished initializing! Programm starting!
+2023-03-29 11:45:09.929517: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 11:45:09.930580: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 11:45:09.931528: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 11:45:12.852330: [USR_INFO] Dataset Settings
+2023-03-29 11:45:49.306205: [INFO] Initializing program!
+2023-03-29 11:45:49.728136: [INFO] Finished initializing! Programm starting!
+2023-03-29 11:45:49.729136: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 11:45:49.730136: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 11:45:49.731136: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 11:45:54.011966: [USR_INFO] Dataset Settings
+2023-03-29 11:45:54.012882: [INFO] (1) Add new person to dataset, (2) Change Datasetpath, (3) Go back
+2023-03-29 11:45:54.013902: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 11:45:58.052642: [USER_INPUT] Input new datasetpath:  - INPUT: [./my_dataset]
+2023-03-29 11:46:18.564095: [USR_INFO] Dataset Settings
+2023-03-29 11:46:18.566087: [INFO] (1) Add new person to dataset, (2) Change Datasetpath, (3) Go back
+2023-03-29 11:46:18.567086: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 11:46:25.508254: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 11:46:25.509254: [USER_INPUT] Input:  - INPUT: [5]
+2023-03-29 11:47:39.850220: [INFO] Initializing program!
+2023-03-29 11:48:02.730866: [INFO] Initializing program!
+2023-03-29 11:48:33.928979: [INFO] Finished initializing! Programm starting!
+2023-03-29 11:48:33.929979: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 11:48:33.930980: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 11:48:33.931980: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 11:48:36.763841: [USR_INFO] Dataset Settings
+2023-03-29 11:49:02.672488: [INFO] Initializing program!
+2023-03-29 11:50:03.717776: [INFO] Initializing program!
+2023-03-29 11:50:34.831902: [INFO] Finished initializing! Programm starting!
+2023-03-29 11:50:34.833902: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 11:50:34.833902: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 11:50:34.834902: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 11:50:38.036760: [USR_INFO] Dataset Settings
+2023-03-29 11:51:04.286270: [INFO] Initializing program!
+2023-03-29 11:51:32.057743: [INFO] Finished initializing! Programm starting!
+2023-03-29 11:51:32.058737: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 11:51:32.059718: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 11:51:32.060751: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 11:51:38.253367: [USR_INFO] Dataset Settings
+2023-03-29 11:51:38.255345: [USR_INFO] Current Datasetpath: ./my_dataset
+2023-03-29 11:51:38.256345: [USR_INFO] (1) Add new person to dataset, (2) Change Datasetpath, (3) Go back
+2023-03-29 11:51:38.256345: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 11:51:42.557111: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 11:51:42.558153: [USER_INPUT] Input:  - INPUT: [5]
+2023-03-29 11:51:46.460909: [USR_INFO] Camera Settings
+2023-03-29 11:52:04.027544: [INFO] Initializing program!
+2023-03-29 11:52:34.752677: [INFO] Finished initializing! Programm starting!
+2023-03-29 11:52:34.753677: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 11:52:34.754677: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 11:52:34.755677: [USER_INPUT] Input:  - INPUT: [5]
+2023-03-29 11:52:39.173490: [USR_INFO] Camera Settings
+2023-03-29 11:52:39.174478: [USR_INFO] Current Camera resolution: [640, 480], Recommended: [640,480]
+2023-03-29 11:52:39.175415: [INFO] (1) Change Camera resolution, (2) Test camera, (3) Go back
+2023-03-29 11:52:39.176415: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 11:52:41.115305: [INFO] Initializing camera.
+2023-03-29 11:53:15.635450: [INFO] Initializing program!
+2023-03-29 11:53:46.626537: [INFO] Finished initializing! Programm starting!
+2023-03-29 11:53:46.627537: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 11:53:46.628536: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 11:53:46.629536: [USER_INPUT] Input:  - INPUT: [5]
+2023-03-29 11:53:50.101333: [USR_INFO] Camera Settings
+2023-03-29 11:53:50.102372: [USR_INFO] Current Camera resolution: [640, 480], Recommended: [640,480]
+2023-03-29 11:53:50.103394: [INFO] (1) Change Camera resolution, (2) Test camera, (3) Go back
+2023-03-29 11:53:50.104335: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 11:53:51.668258: [INFO] Initializing camera.
+2023-03-29 11:54:01.999622: [INFO] Camera initialized.
+2023-03-29 11:55:24.779728: [INFO] Initializing program!
+2023-03-29 11:55:55.752850: [INFO] Finished initializing! Programm starting!
+2023-03-29 11:55:55.753850: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 11:55:55.754850: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 11:55:55.754850: [USER_INPUT] Input:  - INPUT: [5]
+2023-03-29 11:56:45.501654: [USR_INFO] Camera Settings
+2023-03-29 11:56:45.502657: [USR_INFO] Current Camera resolution: [640, 480], Recommended: [640,480]
+2023-03-29 11:56:45.503654: [INFO] (1) Change Camera resolution, (2) Test camera, (3) Go back
+2023-03-29 11:56:45.503654: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 11:56:47.196592: [INFO] Initializing camera.
+2023-03-29 11:56:57.497941: [INFO] Camera initialized.
+2023-03-29 11:57:03.942613: [INFO] Exiting program
+2023-03-29 11:57:03.943613: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 11:57:03.944614: [USER_INPUT] Input:  - INPUT: [5]
+2023-03-29 11:57:08.604337: [USR_INFO] Camera Settings
+2023-03-29 11:57:08.605357: [USR_INFO] Current Camera resolution: [640, 480], Recommended: [640,480]
+2023-03-29 11:57:08.606340: [INFO] (1) Change Camera resolution, (2) Test camera, (3) Go back
+2023-03-29 11:57:08.608336: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 11:57:10.573304: [USER_INPUT] Set camera x:  - INPUT: [1920]
+2023-03-29 11:57:14.644121: [USER_INPUT] Set camera y:  - INPUT: [1080]
+2023-03-29 11:57:17.052945: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 11:57:17.053894: [USER_INPUT] Input:  - INPUT: [5]
+2023-03-29 11:57:21.061772: [USR_INFO] Camera Settings
+2023-03-29 11:57:21.061772: [USR_INFO] Current Camera resolution: ['1920', '1080'], Recommended: [640,480]
+2023-03-29 11:57:21.062826: [INFO] (1) Change Camera resolution, (2) Test camera, (3) Go back
+2023-03-29 11:57:21.063801: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 11:57:22.173705: [INFO] Initializing camera.
+2023-03-29 11:57:32.501090: [INFO] Camera initialized.
+2023-03-29 11:57:48.803883: [INFO] Exiting program
+2023-03-29 11:57:48.804907: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 11:57:48.806880: [USER_INPUT] Input:  - INPUT: [66]
+2023-03-29 11:57:53.964707: [ERROR] Invalid input, pls try again!
+2023-03-29 11:57:53.965759: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 11:57:53.966717: [USER_INPUT] Input:  - INPUT: [6]
+2023-03-29 11:57:55.163636: [USR_INFO] No help yet:
+2023-03-29 11:57:55.164636: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 11:57:55.165636: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 11:57:57.477608: [USR_INFO] Dataset Settings
+2023-03-29 11:57:57.478539: [USR_INFO] Current Datasetpath: ./my_dataset
+2023-03-29 11:57:57.479519: [USR_INFO] (1) Add new person to dataset, (2) Change Datasetpath, (3) Go back
+2023-03-29 11:57:57.480498: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 11:58:00.325334: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 11:58:00.326329: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 11:58:51.724831: [INFO] Initializing program!
+2023-03-29 11:59:22.611970: [INFO] Finished initializing! Programm starting!
+2023-03-29 11:59:22.612970: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 11:59:22.613970: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 11:59:22.614970: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 11:59:55.903783: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 11:59:55.904783: [USER_INPUT] Input:  - INPUT: [& C:/Users/Student/anaconda3/python.exe c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py]
+2023-03-29 12:03:01.722250: [ERROR] Invalid input, pls try again!
+2023-03-29 12:03:01.723205: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:03:12.377637: [INFO] Initializing program!
+2023-03-29 12:03:40.260916: [INFO] Finished initializing! Programm starting!
+2023-03-29 12:03:40.261914: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 12:03:40.261914: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:03:40.262916: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 12:04:43.170650: [INFO] Initializing program!
+2023-03-29 12:05:11.797922: [INFO] Finished initializing! Programm starting!
+2023-03-29 12:05:11.799881: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 12:05:11.799881: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:05:11.800932: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 12:06:00.203190: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:06:00.204190: [USER_INPUT] Input:  - INPUT: [5]
+2023-03-29 12:06:03.692166: [USR_INFO] Camera Settings
+2023-03-29 12:06:03.693156: [USR_INFO] Current Camera resolution: [640, 480], Recommended: [640,480]
+2023-03-29 12:06:03.694129: [INFO] (1) Change Camera resolution, (2) Test camera, (3) Go back
+2023-03-29 12:06:03.695177: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 12:06:06.636003: [INFO] Initializing camera.
+2023-03-29 12:06:16.225383: [INFO] Camera initialized.
+2023-03-29 12:06:20.216148: [INFO] Exiting program
+2023-03-29 12:06:20.218146: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:06:20.219146: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 12:06:25.117921: [USR_INFO] Modell:
+2023-03-29 12:06:25.118876: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:06:25.119874: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 12:06:26.133834: [USR_INFO] Dataset Settings
+2023-03-29 12:06:26.134830: [USR_INFO] Current Datasetpath: ./my_dataset
+2023-03-29 12:07:48.503973: [INFO] Initializing program!
+2023-03-29 12:08:16.352290: [INFO] Finished initializing! Programm starting!
+2023-03-29 12:08:16.353325: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 12:08:16.354268: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:08:16.356268: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 12:08:46.313436: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:08:46.315436: [USER_INPUT] Input:  - INPUT: [7]
+2023-03-29 12:08:50.558205: [INFO] Exiting programm.
+2023-03-29 12:09:32.135447: [INFO] Initializing program!
+2023-03-29 12:09:59.970770: [INFO] Finished initializing! Programm starting!
+2023-03-29 12:09:59.971770: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 12:09:59.972770: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:09:59.973771: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 12:10:23.469726: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:10:23.470724: [USER_INPUT] Input:  - INPUT: [& C:/Users/Student/anaconda3/python.exe c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py]
+2023-03-29 12:12:48.795329: [ERROR] Invalid input, pls try again!
+2023-03-29 12:12:48.796305: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:12:56.209227: [INFO] Initializing program!
+2023-03-29 12:13:23.986556: [INFO] Finished initializing! Programm starting!
+2023-03-29 12:13:23.987517: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 12:13:23.988575: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:13:23.988575: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 12:13:42.168838: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:13:42.169838: [USER_INPUT] Input:  - INPUT: [5]
+2023-03-29 12:13:44.093748: [USR_INFO] Camera Settings
+2023-03-29 12:13:44.094763: [USR_INFO] Current Camera resolution: [640, 480], Recommended: [640,480]
+2023-03-29 12:13:44.095724: [INFO] (1) Change Camera resolution, (2) Test camera, (3) Go back
+2023-03-29 12:13:44.095724: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 12:13:45.452668: [INFO] Initializing camera.
+2023-03-29 12:13:55.027212: [INFO] Camera initialized.
+2023-03-29 12:13:58.201490: [INFO] Exiting program
+2023-03-29 12:13:58.203495: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:13:58.204490: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 12:14:04.981108: [USR_INFO] Dataset Settings
+2023-03-29 12:14:04.982101: [USR_INFO] Current Datasetpath: ./my_dataset
+2023-03-29 12:14:04.984087: [USR_INFO] Current HaarCascadePath: ./dataset/haarcascade_frontalface_default.xml
+2023-03-29 12:14:04.985087: [USR_INFO] (1) Add new person to dataset, (2) Change Datasetpath, (3) Change HaarCascade Path (4) Go back
+2023-03-29 12:14:04.985087: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 12:14:09.046092: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:14:09.047109: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 12:14:11.292971: [USR_INFO] Modell:
+2023-03-29 12:14:11.294947: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:14:11.295964: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 12:14:27.238178: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:14:27.239177: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 12:14:28.397149: [USR_INFO] Recognition:
+2023-03-29 12:14:28.398108: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:14:28.399109: [USER_INPUT] Input:  - INPUT: [5]
+2023-03-29 12:14:30.262034: [USR_INFO] Camera Settings
+2023-03-29 12:14:30.263998: [USR_INFO] Current Camera resolution: [640, 480], Recommended: [640,480]
+2023-03-29 12:14:30.265014: [INFO] (1) Change Camera resolution, (2) Test camera, (3) Go back
+2023-03-29 12:14:30.265997: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 12:14:32.332924: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:14:32.333944: [USER_INPUT] Input:  - INPUT: [6]
+2023-03-29 12:14:33.572801: [USR_INFO] No help yet:
+2023-03-29 12:14:33.573801: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:14:33.574801: [USER_INPUT] Input:  - INPUT: [7]
+2023-03-29 12:14:34.710733: [INFO] Exiting programm.
+2023-03-29 12:22:28.467874: [INFO] Initializing program!
+2023-03-29 12:22:56.575202: [INFO] Finished initializing! Programm starting!
+2023-03-29 12:22:56.576183: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 12:22:56.577204: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:22:56.578165: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 12:23:02.773420: [USR_INFO] Current model path: ./models/micro_1.yml
+2023-03-29 12:23:02.774398: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-29 12:23:02.775380: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 12:23:27.949983: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:23:27.951005: [USER_INPUT] Input:  - INPUT: [7]
+2023-03-29 12:23:29.656875: [INFO] Exiting programm.
+2023-03-29 12:25:34.909364: [INFO] Initializing program!
+2023-03-29 12:25:55.955116: [INFO] Initializing program!
+2023-03-29 12:26:24.231413: [INFO] Finished initializing! Programm starting!
+2023-03-29 12:26:24.233413: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 12:26:24.233413: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:26:24.234423: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 12:26:27.814223: [USR_INFO] Current model path: ./models/my_model.xml
+2023-03-29 12:26:27.815222: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-29 12:26:27.815222: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 12:26:30.630101: [USR_INFO] Do not stop this process until the training is finished! Otherwise the model could become corrupted!
+2023-03-29 12:28:08.324600: [INFO] Initializing program!
+2023-03-29 12:28:38.224784: [INFO] Finished initializing! Programm starting!
+2023-03-29 12:28:38.225784: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 12:28:38.225784: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:28:38.226784: [USER_INPUT] Input:  - INPUT: [C:/Users/Student/anaconda3/Scripts/activate]
+2023-03-29 12:28:38.228783: [ERROR] Invalid input, pls try again!
+2023-03-29 12:28:38.228783: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:28:38.229783: [USER_INPUT] Input:  - INPUT: [conda activate base]
+2023-03-29 12:28:38.230784: [ERROR] Invalid input, pls try again!
+2023-03-29 12:28:38.230784: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:28:38.231783: [USER_INPUT] Input:  - INPUT: [& C:/Users/Student/anaconda3/python.exe c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py]
+2023-03-29 12:28:38.234783: [ERROR] Invalid input, pls try again!
+2023-03-29 12:28:38.234783: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:28:38.235783: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 12:29:18.632420: [USR_INFO] Current model path: ./models/my_model.xml
+2023-03-29 12:29:18.632420: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-29 12:29:18.633460: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 12:29:20.157291: [USR_INFO] Do not stop this process until the training is finished! Otherwise the model could become corrupted!
+2023-03-29 12:31:42.395254: [INFO] Initializing program!
+2023-03-29 12:32:09.416687: [INFO] Finished initializing! Programm starting!
+2023-03-29 12:32:09.417668: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 12:32:09.418635: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:32:09.419682: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 12:32:18.551108: [USR_INFO] Current model path: ./models/my_model.xml
+2023-03-29 12:32:18.552087: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-29 12:32:18.554086: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 12:32:22.638886: [USR_INFO] Do not stop this process until the training is finished! Otherwise the model could become corrupted!
+2023-03-29 12:34:09.895015: [INFO] Initializing program!
+2023-03-29 12:34:36.938406: [INFO] Finished initializing! Programm starting!
+2023-03-29 12:34:36.939407: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 12:34:36.940406: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:34:36.941407: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 12:34:39.630324: [USR_INFO] Current model path: ./models/my_model.xml
+2023-03-29 12:34:39.631249: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-29 12:34:39.632247: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 12:34:40.749203: [USR_INFO] Do not stop this process until the training is finished! Otherwise the model could become corrupted!
+2023-03-29 12:34:40.752186: [ERROR] Exited program by unknown error!
+2023-03-29 12:35:51.638803: [INFO] Initializing program!
+2023-03-29 12:36:18.416202: [INFO] Finished initializing! Programm starting!
+2023-03-29 12:36:18.417191: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 12:36:18.418164: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:36:18.419237: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 12:36:22.165940: [USR_INFO] Current model path: ./models/my_model.xml
+2023-03-29 12:36:22.167941: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-29 12:36:22.168956: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 12:36:23.542412: [USR_INFO] Do not stop this process until the training is finished! Otherwise the model could become corrupted!
+2023-03-29 12:36:23.731376: [ERROR] Exited program by unknown error!
+2023-03-29 12:37:49.720383: [INFO] Initializing program!
+2023-03-29 12:38:21.386481: [INFO] Finished initializing! Programm starting!
+2023-03-29 12:38:21.387481: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 12:38:21.388481: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:38:21.389481: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 12:38:44.134240: [USR_INFO] Current model path: ./models/my_model.xml
+2023-03-29 12:38:44.135222: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-29 12:38:44.136129: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 12:38:44.989323: [USR_INFO] Do not stop this process until the training is finished! Otherwise the model could become corrupted!
+2023-03-29 12:38:45.213285: [ERROR] Exited program by error: <class 'Exception'>
+2023-03-29 12:40:44.696255: [INFO] Initializing program!
+2023-03-29 12:41:28.751423: [INFO] Initializing program!
+2023-03-29 12:42:00.891491: [INFO] Finished initializing! Programm starting!
+2023-03-29 12:42:00.892491: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 12:42:00.893492: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:42:00.894491: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 12:42:25.645095: [USR_INFO] Current model path: ./models/my_model.xml
+2023-03-29 12:42:25.646080: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-29 12:42:25.647088: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 12:42:27.764977: [USR_INFO] Do not stop this process until the training is finished! Otherwise the model could become corrupted!
+2023-03-29 12:42:27.984952: [ERROR] Exited program by error: Traceback (most recent call last):
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 118, in main
+    Modell(model)
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 69, in Modell
+    model.trainExistingModel(dataset_path, 3, 0)
+  File "c:\Users\Student\Documents\repos\ai_face_recognition\ai_face_recognition\classes\model.py", line 94, in trainExistingModel
+    trainer(self.model_path, self.recognizer, faces, ids)
+  File "c:\Users\Student\Documents\repos\ai_face_recognition\ai_face_recognition\classes\model.py", line 73, in trainer
+    recognizer.write(model_path)
+cv2.error: OpenCV(4.5.1) C:\Users\Student\Documents\opencvPython\opencv_contrib-4.5.1\modules\face\src\facerec.cpp:70: error: (-2:Unspecified error) File can't be opened for writing! in function 'cv::face::FaceRecognizer::write'
+
+
+2023-03-29 12:45:02.768529: [INFO] Initializing program!
+2023-03-29 12:45:35.700530: [INFO] Finished initializing! Programm starting!
+2023-03-29 12:45:35.701531: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 12:45:35.703531: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:45:35.704531: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 12:45:39.750305: [USR_INFO] Current model path: ./models/my_model.xml
+2023-03-29 12:45:39.751291: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-29 12:45:39.752291: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 12:45:46.701627: [USR_INFO] Do not stop this process until the training is finished! Otherwise the model could become corrupted!
+2023-03-29 12:45:47.938552: [INFO] [INFO] Epoch time: 1/3 - Status %: 1.47 - Time of epoch: 1.154954433441162s
+2023-03-29 12:45:49.591471: [INFO] [INFO] Epoch time: 2/3 - Status %: 3.58 - Time of epoch: 1.6519412994384766s
+2023-03-29 12:45:51.778321: [INFO] [INFO] Epoch time: 3/3 - Status %: 6.37 - Time of epoch: 2.185837984085083s
+2023-03-29 12:45:51.779322: [INFO] Training completed - Total training time: 5.076714992523193 - Calculated time correctness: 6.0
+2023-03-29 12:45:51.780351: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 12:45:51.782301: [USER_INPUT] Input:  - INPUT: [7]
+2023-03-29 13:03:13.069214: [INFO] Exiting programm.
+2023-03-29 13:13:06.692330: [INFO] Initializing program!
+2023-03-29 13:13:37.990402: [INFO] Finished initializing! Programm starting!
+2023-03-29 13:13:37.991402: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 13:13:37.991402: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:13:37.992402: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:14:43.855738: [USR_INFO] Recognition
+2023-03-29 13:14:43.857738: [ERROR] Traceback (most recent call last):
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 150, in main
+    elif input == "3":
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 89, in Recognition
+    global loaded_img
+TypeError: msgWithTime() missing 1 required positional argument: 'code_index'
+
+2023-03-29 13:14:43.858738: [ERROR] Exited programm by error above
+2023-03-29 13:15:26.948826: [INFO] Initializing program!
+2023-03-29 13:15:54.722148: [INFO] Finished initializing! Programm starting!
+2023-03-29 13:15:54.723150: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 13:15:54.724173: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:15:54.725129: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:16:05.767453: [USR_INFO] Recognition
+2023-03-29 13:16:05.767453: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 13:16:05.768452: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:16:19.116720: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:19:25.264407: [INFO] Initializing program!
+2023-03-29 13:19:56.063555: [INFO] Finished initializing! Programm starting!
+2023-03-29 13:19:56.064555: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 13:19:56.065555: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:19:56.066555: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:20:00.559341: [USR_INFO] Recognition
+2023-03-29 13:20:00.560295: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 13:20:00.561328: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:20:09.454246: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:20:09.455246: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:20:12.079177: [USR_INFO] Recognition
+2023-03-29 13:20:12.080153: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 13:20:12.081119: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 13:20:17.127810: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:20:17.128790: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 13:20:38.114029: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:20:38.115033: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:20:41.238899: [USR_INFO] Recognition
+2023-03-29 13:20:41.239853: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 13:20:41.240898: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 13:20:43.151730: [USER_INPUT] Input new image path:  - INPUT: [C:/Users/Student/Desktop/edited_images/1.21]
+2023-03-29 13:21:25.943496: [ERROR] Could not load image at given path.
+2023-03-29 13:21:25.944458: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:21:25.945473: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:21:34.895929: [USR_INFO] Recognition
+2023-03-29 13:21:34.896902: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 13:21:34.896902: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 13:21:37.215123: [USER_INPUT] Input new image path:  - INPUT: [C:/Users/Student/Desktop/edited_images/1.21.jpg]
+2023-03-29 13:21:51.972462: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:21:51.973451: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:21:54.223353: [USR_INFO] Recognition
+2023-03-29 13:21:54.223353: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 13:21:54.224345: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:21:58.350076: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:21:58.351076: [USER_INPUT] Input:  - INPUT: [7]
+2023-03-29 13:22:02.655000: [INFO] Exiting programm.
+2023-03-29 13:27:30.040788: [ERROR] Could not load person_dict!
+2023-03-29 13:27:30.041775: [INFO] Initializing program!
+2023-03-29 13:28:02.148481: [INFO] Initializing program!
+2023-03-29 13:28:33.516559: [INFO] Finished initializing! Programm starting!
+2023-03-29 13:28:33.517559: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 13:28:33.518559: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:28:33.519559: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:29:05.767379: [USR_INFO] Recognition
+2023-03-29 13:29:05.768333: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 13:29:05.769304: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:29:08.998578: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:29:08.999578: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:29:10.694502: [USR_INFO] Recognition
+2023-03-29 13:29:10.695476: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 13:29:10.696527: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 13:29:14.825250: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:29:14.826263: [USER_INPUT] Input:  - INPUT: [& C:/Users/Student/anaconda3/python.exe c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py]
+2023-03-29 13:30:12.686008: [ERROR] Invalid input, pls try again!
+2023-03-29 13:30:12.686989: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:30:19.092668: [INFO] Initializing program!
+2023-03-29 13:30:50.291432: [INFO] Finished initializing! Programm starting!
+2023-03-29 13:30:50.292433: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 13:30:50.293469: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:30:50.294492: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:30:52.704364: [USR_INFO] Recognition
+2023-03-29 13:30:52.705334: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 13:30:52.706330: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:30:56.146086: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:30:56.147086: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:30:57.489049: [USR_INFO] Recognition
+2023-03-29 13:30:57.489049: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 13:30:57.490010: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 13:31:07.770397: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:31:07.771395: [USER_INPUT] Input:  - INPUT: [7]
+2023-03-29 13:33:13.967470: [INFO] Exiting programm.
+2023-03-29 13:33:18.065123: [INFO] Initializing program!
+2023-03-29 13:33:48.408278: [INFO] Finished initializing! Programm starting!
+2023-03-29 13:33:48.409278: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 13:33:48.410278: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:33:48.411278: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:33:52.968044: [USR_INFO] Recognition
+2023-03-29 13:33:52.968044: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 13:33:52.969018: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:33:56.253813: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:33:56.255814: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:33:58.799818: [USR_INFO] Recognition
+2023-03-29 13:33:58.800865: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 13:33:58.801842: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 13:34:10.411093: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:34:10.412095: [USER_INPUT] Input:  - INPUT: [7]
+2023-03-29 13:34:54.176913: [INFO] Exiting programm.
+2023-03-29 13:35:03.956445: [ERROR] Could not load testing image!
+2023-03-29 13:35:03.957452: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R'}
+2023-03-29 13:35:03.958460: [INFO] Initializing program!
+2023-03-29 13:35:32.194750: [INFO] Finished initializing! Programm starting!
+2023-03-29 13:35:32.195770: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 13:35:32.195770: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:35:32.196750: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:35:35.143634: [USR_INFO] Recognition
+2023-03-29 13:35:35.144687: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 13:35:35.144687: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:35:36.455545: [ERROR] Traceback (most recent call last):
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 167, in main
+    Recognition(model)
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 119, in Recognition
+    printingWindow(loaded_img, window_title="Current selected Image")
+NameError: name 'loaded_img' is not defined
+
+2023-03-29 13:35:36.456505: [ERROR] Exited programm by error above
+2023-03-29 13:38:01.181652: [ERROR] Could not load testing image!
+2023-03-29 13:38:01.183800: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R'}
+2023-03-29 13:38:01.184657: [INFO] Initializing program!
+2023-03-29 13:39:03.400455: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R'}
+2023-03-29 13:39:03.401455: [INFO] Initializing program!
+2023-03-29 13:39:31.248798: [INFO] Finished initializing! Programm starting!
+2023-03-29 13:39:31.249798: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 13:39:31.249798: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:39:31.250798: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:39:34.456674: [USR_INFO] Recognition
+2023-03-29 13:39:34.457663: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 13:39:34.458609: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:39:39.886308: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:39:39.887305: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:39:43.512163: [USR_INFO] Recognition
+2023-03-29 13:39:43.513113: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 13:39:43.514094: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 13:39:47.389859: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:39:47.391858: [USER_INPUT] Input:  - INPUT: [7]
+2023-03-29 13:40:13.007784: [INFO] Exiting programm.
+2023-03-29 13:40:15.992800: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R'}
+2023-03-29 13:40:15.993811: [INFO] Initializing program!
+2023-03-29 13:40:42.824164: [INFO] Finished initializing! Programm starting!
+2023-03-29 13:40:42.825165: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 13:40:42.826165: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:40:42.827165: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:40:45.089136: [USR_INFO] Recognition
+2023-03-29 13:40:45.090031: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 13:40:45.091031: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:40:48.803993: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:40:48.804992: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 13:40:50.472213: [USR_INFO] Recognition
+2023-03-29 13:40:50.474085: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 13:40:50.475099: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 13:40:56.623756: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 13:40:56.624756: [USER_INPUT] Input:  - INPUT: [7]
+2023-03-29 13:42:01.695914: [INFO] Exiting programm.
+2023-03-29 14:51:26.581913: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston'}
+2023-03-29 14:51:26.582913: [INFO] Initializing program!
+2023-03-29 14:51:55.312204: [INFO] Finished initializing! Programm starting!
+2023-03-29 14:51:55.313204: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 14:51:55.314204: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 14:51:55.314204: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 14:52:00.826928: [USR_INFO] Recognition
+2023-03-29 14:52:00.827929: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 14:52:00.828922: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 14:52:05.992574: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 14:52:05.993573: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 14:52:07.546574: [USR_INFO] Recognition
+2023-03-29 14:52:07.547566: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 14:52:07.548481: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 14:52:12.628179: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 14:52:12.629179: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 14:52:29.883446: [USR_INFO] Current model path: ./models/my_model.xml
+2023-03-29 14:52:29.884443: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-29 14:52:29.885398: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 14:52:31.987349: [USR_INFO] Do not stop this process until the training is finished! Otherwise the model could become corrupted!
+2023-03-29 14:52:33.356239: [INFO] [INFO] Epoch time: 1/3 - Status %: 1.65 - Time of epoch: 1.2889430522918701s
+2023-03-29 14:52:35.212146: [INFO] [INFO] Epoch time: 2/3 - Status %: 4.01 - Time of epoch: 1.8538858890533447s
+2023-03-29 14:52:37.609938: [INFO] [INFO] Epoch time: 3/3 - Status %: 7.07 - Time of epoch: 2.3967933654785156s
+2023-03-29 14:52:37.610991: [INFO] Training completed - Total training time: 5.6227030754089355 - Calculated time correctness: 7.000000000000001
+2023-03-29 14:52:37.612939: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 14:52:37.614004: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 14:53:04.164522: [USR_INFO] Current model path: ./models/my_model.xml
+2023-03-29 14:53:04.165524: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-29 14:53:04.167464: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 14:53:07.331303: [USER_INPUT] Input new model path:  - INPUT: [./models/my_model.xml]
+2023-03-29 14:53:17.365911: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 14:53:17.367940: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 14:53:29.076717: [USR_INFO] Recognition
+2023-03-29 14:53:29.076717: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 14:53:29.078716: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 14:53:49.473507: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 14:53:49.474506: [USER_INPUT] Input:  - INPUT: [7]
+2023-03-29 14:54:37.420022: [INFO] Exiting programm.
+2023-03-29 14:54:48.026442: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston'}
+2023-03-29 14:54:48.027440: [INFO] Initializing program!
+2023-03-29 14:55:15.990722: [INFO] Finished initializing! Programm starting!
+2023-03-29 14:55:15.991722: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 14:55:15.992721: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 14:55:15.992721: [USER_INPUT] Input:  - INPUT: [7]
+2023-03-29 14:55:47.267829: [INFO] Exiting programm.
+2023-03-29 14:55:51.326984: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston'}
+2023-03-29 14:55:51.327982: [INFO] Initializing program!
+2023-03-29 14:56:21.561435: [INFO] Finished initializing! Programm starting!
+2023-03-29 14:56:21.563435: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 14:56:21.564435: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 14:56:21.565435: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 14:56:29.421195: [USR_INFO] Recognition
+2023-03-29 14:56:29.422196: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 14:56:29.423195: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 14:56:34.135881: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 14:56:34.136880: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 14:56:36.139758: [USR_INFO] Recognition
+2023-03-29 14:56:36.140759: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 14:56:36.141758: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 14:56:39.069602: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 14:56:39.070587: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 14:56:41.643431: [USR_INFO] Current model path: ./models/my_model.xml
+2023-03-29 14:56:41.644431: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-29 14:56:41.645431: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 14:56:43.659331: [USR_INFO] Do not stop this process until the training is finished! Otherwise the model could become corrupted!
+2023-03-29 14:56:45.102244: [INFO] [INFO] Epoch time: 1/3 - Status %: 1.77 - Time of epoch: 1.3879361152648926s
+2023-03-29 14:56:46.997133: [INFO] [INFO] Epoch time: 2/3 - Status %: 4.19 - Time of epoch: 1.8938415050506592s
+2023-03-29 14:56:49.415989: [INFO] [INFO] Epoch time: 3/3 - Status %: 7.27 - Time of epoch: 2.4168052673339844s
+2023-03-29 14:56:49.416994: [INFO] Training completed - Total training time: 5.755683422088623 - Calculated time correctness: 7.000000000000001
+2023-03-29 14:56:49.418969: [USR_INFO] Reloading trained model.
+2023-03-29 14:56:52.587818: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 14:56:52.589782: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 14:57:10.995498: [USR_INFO] Recognition
+2023-03-29 14:57:10.996455: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 14:57:10.997452: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 14:57:17.754876: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 14:57:17.755876: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 14:57:20.003742: [USR_INFO] Recognition
+2023-03-29 14:57:20.004796: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 14:57:20.005799: [USER_INPUT] Input:  - INPUT: [5]
+2023-03-29 14:57:23.667544: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 14:57:23.669595: [USER_INPUT] Input:  - INPUT: [7]
+2023-03-29 14:57:24.683516: [INFO] Exiting programm.
+2023-03-29 14:59:19.873306: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston'}
+2023-03-29 14:59:19.874313: [INFO] Initializing program!
+2023-03-29 14:59:36.128322: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston'}
+2023-03-29 14:59:36.130377: [INFO] Initializing program!
+2023-03-29 15:00:03.245708: [INFO] Finished initializing! Programm starting!
+2023-03-29 15:00:03.246708: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 15:00:03.247708: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:00:03.247708: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:00:17.938839: [USR_INFO] Current model path: ./models/my_model.xml
+2023-03-29 15:00:17.939835: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-29 15:00:17.940840: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:00:21.172642: [ERROR] Invalid user input
+2023-03-29 15:00:21.172642: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:00:21.173663: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:00:27.947287: [USR_INFO] Recognition
+2023-03-29 15:00:27.948294: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:00:27.949275: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:00:33.350918: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:00:33.352919: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:00:36.578751: [USR_INFO] Current model path: ./models/my_model.xml
+2023-03-29 15:00:36.579727: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-29 15:00:36.580726: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:00:38.010675: [USER_INPUT] Input amount of epochs:  - INPUT: [10]
+2023-03-29 15:00:41.987431: [USR_INFO] Do not stop this process until the training is finished! Otherwise the model could become corrupted!
+2023-03-29 15:00:41.990476: [ERROR] Traceback (most recent call last):
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 171, in main
+    Modell(model)
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 86, in Modell
+    model.trainExistingModel(dataset_path, epoch_amount, 0)
+  File "c:\Users\Student\Documents\repos\ai_face_recognition\ai_face_recognition\classes\model.py", line 88, in trainExistingModel
+    approx_total_time_lin = calculateTimeForTraining(epochs, already_trained_epochs)
+  File "c:\Users\Student\Documents\repos\ai_face_recognition\ai_face_recognition\classes\model.py", line 82, in calculateTimeForTraining
+    for i in range(already_trained_epochs,epochs+already_trained_epochs,1):
+TypeError: can only concatenate str (not "int") to str
+
+2023-03-29 15:00:41.994407: [ERROR] Exited programm by error above
+2023-03-29 15:01:14.935563: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston'}
+2023-03-29 15:01:14.936564: [INFO] Initializing program!
+2023-03-29 15:01:42.469963: [INFO] Finished initializing! Programm starting!
+2023-03-29 15:01:42.470996: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 15:01:42.471936: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:01:42.472926: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:01:47.123649: [USR_INFO] Recognition
+2023-03-29 15:01:47.124650: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:01:47.125672: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:01:51.758441: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:01:51.759443: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:01:53.499428: [USR_INFO] Current model path: ./models/my_model.xml
+2023-03-29 15:01:53.500337: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-29 15:01:53.502352: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:01:56.099223: [USER_INPUT] Input amount of epochs:  - INPUT: [10]
+2023-03-29 15:01:57.932130: [ERROR] Could not change epoch amount, now training for 3 epochs!
+2023-03-29 15:01:57.933138: [USR_INFO] Do not stop this process until the training is finished! Otherwise the model could become corrupted!
+2023-03-29 15:01:59.255053: [INFO] [INFO] Epoch time: 1/10 - Status %: 0.43 - Time of epoch: 1.2719156742095947s
+2023-03-29 15:02:01.108946: [INFO] [INFO] Epoch time: 2/10 - Status %: 1.06 - Time of epoch: 1.8528797626495361s
+2023-03-29 15:02:03.539717: [INFO] [INFO] Epoch time: 3/10 - Status %: 1.89 - Time of epoch: 2.42877459526062s
+2023-03-29 15:02:06.536540: [INFO] [INFO] Epoch time: 4/10 - Status %: 2.91 - Time of epoch: 2.995821952819824s
+2023-03-29 15:02:10.092365: [INFO] [INFO] Epoch time: 5/10 - Status %: 4.12 - Time of epoch: 3.554779529571533s
+2023-03-29 15:02:14.267139: [INFO] [INFO] Epoch time: 6/10 - Status %: 5.54 - Time of epoch: 4.17376184463501s
+2023-03-29 15:02:18.922859: [INFO] [INFO] Epoch time: 7/10 - Status %: 7.12 - Time of epoch: 4.654628276824951s
+2023-03-29 15:02:24.096495: [INFO] [INFO] Epoch time: 8/10 - Status %: 8.88 - Time of epoch: 5.170480728149414s
+2023-03-29 15:02:29.857175: [INFO] [INFO] Epoch time: 9/10 - Status %: 10.84 - Time of epoch: 5.759660720825195s
+2023-03-29 15:02:36.350776: [INFO] [INFO] Epoch time: 10/10 - Status %: 13.05 - Time of epoch: 6.492584228515625s
+2023-03-29 15:02:36.351768: [INFO] Training completed - Total training time: 38.417643785476685 - Calculated time correctness: 13.0
+2023-03-29 15:02:36.353754: [USR_INFO] Reloading trained model.
+2023-03-29 15:02:44.643262: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:02:44.645353: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:05:54.812385: [USR_INFO] Recognition
+2023-03-29 15:05:54.813375: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:05:54.814376: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:05:58.546743: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:05:58.548733: [USER_INPUT] Input:  - INPUT: [7]
+2023-03-29 15:06:05.803327: [INFO] Exiting programm.
+2023-03-29 15:07:28.439398: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston'}
+2023-03-29 15:07:28.440379: [INFO] Initializing program!
+2023-03-29 15:07:58.445594: [INFO] Finished initializing! Programm starting!
+2023-03-29 15:07:58.446594: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 15:07:58.447594: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:07:58.448594: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:08:05.893153: [USR_INFO] Current model path: ./models/my_model.xml
+2023-03-29 15:08:05.894191: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-29 15:08:05.895164: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:08:07.827108: [USER_INPUT] Input amount of epochs:  - INPUT: [5]
+2023-03-29 15:08:09.348990: [ERROR] Could not change epoch amount, now training for 3 epochs!
+2023-03-29 15:08:09.350001: [USR_INFO] Do not stop this process until the training is finished! Otherwise the model could become corrupted!
+2023-03-29 15:08:10.105923: [INFO] [INFO] Epoch time: 1/5 - Status %: 3.0 - Time of epoch: 0.7029578685760498s
+2023-03-29 15:08:10.823898: [INFO] [INFO] Epoch time: 2/5 - Status %: 6.06 - Time of epoch: 0.7159967422485352s
+2023-03-29 15:08:11.608853: [INFO] [INFO] Epoch time: 3/5 - Status %: 9.4 - Time of epoch: 0.7839546203613281s
+2023-03-29 15:08:12.332810: [INFO] [INFO] Epoch time: 4/5 - Status %: 12.49 - Time of epoch: 0.7229554653167725s
+2023-03-29 15:08:13.116725: [INFO] [INFO] Epoch time: 5/5 - Status %: 15.82 - Time of epoch: 0.7819564342498779s
+2023-03-29 15:08:13.117745: [INFO] Training completed - Total training time: 3.76674485206604 - Calculated time correctness: 16.0
+2023-03-29 15:08:13.118723: [USR_INFO] Reloading trained model.
+2023-03-29 15:08:13.918736: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:08:13.920772: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:08:20.899282: [USR_INFO] Recognition
+2023-03-29 15:08:20.901241: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:08:20.901241: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:08:27.092872: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:08:27.093872: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:08:29.331738: [USR_INFO] Current model path: ./models/my_model.xml
+2023-03-29 15:08:29.332739: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-29 15:08:29.333739: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:08:30.779733: [USER_INPUT] Input amount of epochs:  - INPUT: [20]
+2023-03-29 15:08:32.012583: [ERROR] Could not change epoch amount, now training for 3 epochs!
+2023-03-29 15:08:32.013621: [USR_INFO] Do not stop this process until the training is finished! Otherwise the model could become corrupted!
+2023-03-29 15:08:32.759575: [INFO] [INFO] Epoch time: 1/20 - Status %: 0.17 - Time of epoch: 0.6959788799285889s
+2023-03-29 15:08:33.469493: [INFO] [INFO] Epoch time: 2/20 - Status %: 0.35 - Time of epoch: 0.708897590637207s
+2023-03-29 15:08:34.280506: [INFO] [INFO] Epoch time: 3/20 - Status %: 0.55 - Time of epoch: 0.8099949359893799s
+2023-03-29 15:08:35.017407: [INFO] [INFO] Epoch time: 4/20 - Status %: 0.73 - Time of epoch: 0.7359046936035156s
+2023-03-29 15:08:35.741398: [INFO] [INFO] Epoch time: 5/20 - Status %: 0.9 - Time of epoch: 0.7229752540588379s
+2023-03-29 15:08:36.458062: [INFO] [INFO] Epoch time: 6/20 - Status %: 1.08 - Time of epoch: 0.7156362533569336s
+2023-03-29 15:08:37.276053: [INFO] [INFO] Epoch time: 7/20 - Status %: 1.28 - Time of epoch: 0.8169684410095215s
+2023-03-29 15:08:37.984008: [INFO] [INFO] Epoch time: 8/20 - Status %: 1.46 - Time of epoch: 0.7069261074066162s
+2023-03-29 15:08:38.700933: [INFO] [INFO] Epoch time: 9/20 - Status %: 1.63 - Time of epoch: 0.715961217880249s
+2023-03-29 15:08:39.420921: [INFO] [INFO] Epoch time: 10/20 - Status %: 1.81 - Time of epoch: 0.7189693450927734s
+2023-03-29 15:08:40.149884: [INFO] [INFO] Epoch time: 11/20 - Status %: 1.99 - Time of epoch: 0.7269973754882812s
+2023-03-29 15:08:40.876824: [INFO] [INFO] Epoch time: 12/20 - Status %: 2.17 - Time of epoch: 0.7259562015533447s
+2023-03-29 15:08:41.604779: [INFO] [INFO] Epoch time: 13/20 - Status %: 2.35 - Time of epoch: 0.7269425392150879s
+2023-03-29 15:08:42.341730: [INFO] [INFO] Epoch time: 14/20 - Status %: 2.53 - Time of epoch: 0.7359740734100342s
+2023-03-29 15:08:43.083712: [INFO] [INFO] Epoch time: 15/20 - Status %: 2.71 - Time of epoch: 0.7409775257110596s
+2023-03-29 15:08:43.800653: [INFO] [INFO] Epoch time: 16/20 - Status %: 2.89 - Time of epoch: 0.7149646282196045s
+2023-03-29 15:08:44.546609: [INFO] [INFO] Epoch time: 17/20 - Status %: 3.07 - Time of epoch: 0.7449049949645996s
+2023-03-29 15:08:45.346741: [INFO] [INFO] Epoch time: 18/20 - Status %: 3.27 - Time of epoch: 0.7991282939910889s
+2023-03-29 15:08:46.070704: [INFO] [INFO] Epoch time: 19/20 - Status %: 3.45 - Time of epoch: 0.7229814529418945s
+2023-03-29 15:08:46.877651: [INFO] [INFO] Epoch time: 20/20 - Status %: 3.64 - Time of epoch: 0.805938720703125s
+2023-03-29 15:08:46.878652: [INFO] Training completed - Total training time: 14.864072322845459 - Calculated time correctness: 4.0
+2023-03-29 15:08:46.879657: [USR_INFO] Reloading trained model.
+2023-03-29 15:08:47.682604: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:08:47.683608: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:08:51.716365: [USR_INFO] Current model path: ./models/my_model.xml
+2023-03-29 15:08:51.717344: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-29 15:08:51.719352: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 15:08:53.635230: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:08:53.636253: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:08:54.205213: [USR_INFO] Recognition
+2023-03-29 15:08:54.206258: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:08:54.207227: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:08:55.944326: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:08:55.945326: [USER_INPUT] Input:  - INPUT: [7]
+2023-03-29 15:08:58.372267: [INFO] Exiting programm.
+2023-03-29 15:09:14.954834: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston'}
+2023-03-29 15:09:14.956834: [INFO] Initializing program!
+2023-03-29 15:09:45.345016: [INFO] Finished initializing! Programm starting!
+2023-03-29 15:09:45.347016: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 15:09:45.348016: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:09:45.349016: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:09:50.523948: [USR_INFO] Current model path: ./models/my_model.xml
+2023-03-29 15:09:50.524915: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-29 15:09:50.526915: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:09:51.635869: [USER_INPUT] Input amount of epochs:  - INPUT: [10]
+2023-03-29 15:09:53.819748: [ERROR] Could not change epoch amount, now training for 3 epochs!
+2023-03-29 15:09:53.820735: [USR_INFO] Do not stop this process until the training is finished! Otherwise the model could become corrupted!
+2023-03-29 15:09:54.610658: [INFO] [INFO] Epoch time: 1/10 - Status %: 0.83 - Time of epoch: 0.7379798889160156s
+2023-03-29 15:09:55.387588: [INFO] [INFO] Epoch time: 2/10 - Status %: 1.69 - Time of epoch: 0.7759323120117188s
+2023-03-29 15:09:56.138885: [INFO] [INFO] Epoch time: 3/10 - Status %: 2.53 - Time of epoch: 0.7502973079681396s
+2023-03-29 15:09:56.879859: [INFO] [INFO] Epoch time: 4/10 - Status %: 3.36 - Time of epoch: 0.7399566173553467s
+2023-03-29 15:09:57.621817: [INFO] [INFO] Epoch time: 5/10 - Status %: 4.19 - Time of epoch: 0.7399492263793945s
+2023-03-29 15:09:58.351734: [INFO] [INFO] Epoch time: 6/10 - Status %: 5.0 - Time of epoch: 0.7279560565948486s
+2023-03-29 15:09:59.173709: [INFO] [INFO] Epoch time: 7/10 - Status %: 5.92 - Time of epoch: 0.8209381103515625s
+2023-03-29 15:09:59.931480: [INFO] [INFO] Epoch time: 8/10 - Status %: 6.76 - Time of epoch: 0.7567751407623291s
+2023-03-29 15:10:00.662068: [INFO] [INFO] Epoch time: 9/10 - Status %: 7.58 - Time of epoch: 0.7286100387573242s
+2023-03-29 15:10:01.393051: [INFO] [INFO] Epoch time: 10/10 - Status %: 8.4 - Time of epoch: 0.7300055027008057s
+2023-03-29 15:10:01.394058: [INFO] Training completed - Total training time: 7.5722997188568115 - Calculated time correctness: 8.0
+2023-03-29 15:10:01.395027: [USR_INFO] Reloading trained model.
+2023-03-29 15:10:02.183037: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:10:02.185007: [USER_INPUT] Input:  - INPUT: [7]
+2023-03-29 15:10:42.595742: [INFO] Exiting programm.
+2023-03-29 15:11:06.661486: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston'}
+2023-03-29 15:11:06.663486: [INFO] Initializing program!
+2023-03-29 15:11:34.051857: [INFO] Finished initializing! Programm starting!
+2023-03-29 15:11:34.053857: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 15:11:34.054857: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:11:34.055857: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:11:37.763638: [USR_INFO] Recognition
+2023-03-29 15:11:37.764652: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:11:37.765657: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:11:43.537294: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:11:43.538296: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:11:44.931231: [USR_INFO] Current model path: ./models/my_model.xml
+2023-03-29 15:11:44.933261: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-29 15:11:44.934246: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:11:46.276174: [USER_INPUT] Input amount of epochs:  - INPUT: [10]
+2023-03-29 15:11:47.564689: [ERROR] Could not change epoch amount, now training for 3 epochs!
+2023-03-29 15:11:47.565651: [USR_INFO] Do not stop this process until the training is finished! Otherwise the model could become corrupted!
+2023-03-29 15:11:48.879610: [INFO] [INFO] Epoch time: 1/10 - Status %: 1.41 - Time of epoch: 1.2619569301605225s
+2023-03-29 15:11:50.786497: [INFO] [INFO] Epoch time: 2/10 - Status %: 3.54 - Time of epoch: 1.9059467315673828s
+2023-03-29 15:11:53.247356: [INFO] [INFO] Epoch time: 3/10 - Status %: 6.29 - Time of epoch: 2.458824634552002s
+2023-03-29 15:11:56.231151: [INFO] [INFO] Epoch time: 4/10 - Status %: 9.63 - Time of epoch: 2.9817957878112793s
+2023-03-29 15:11:59.759258: [INFO] [INFO] Epoch time: 5/10 - Status %: 13.57 - Time of epoch: 3.526124954223633s
+2023-03-29 15:12:03.799030: [INFO] [INFO] Epoch time: 6/10 - Status %: 18.08 - Time of epoch: 4.038768529891968s
+2023-03-29 15:12:08.452778: [INFO] [INFO] Epoch time: 7/10 - Status %: 23.29 - Time of epoch: 4.652760982513428s
+2023-03-29 15:12:13.599491: [INFO] [INFO] Epoch time: 8/10 - Status %: 29.04 - Time of epoch: 5.145690441131592s
+2023-03-29 15:12:19.645088: [INFO] [INFO] Epoch time: 9/10 - Status %: 35.8 - Time of epoch: 6.044612646102905s
+2023-03-29 15:12:26.348514: [INFO] [INFO] Epoch time: 10/10 - Status %: 43.29 - Time of epoch: 6.702401876449585s
+2023-03-29 15:12:26.350516: [INFO] Training completed - Total training time: 38.783867597579956 - Calculated time correctness: 43.0
+2023-03-29 15:12:26.351471: [USR_INFO] Reloading trained model.
+2023-03-29 15:12:34.636981: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:12:34.639000: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:12:37.964858: [USR_INFO] Recognition
+2023-03-29 15:12:37.965854: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:12:37.966854: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:12:40.768752: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:12:40.769686: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:12:43.996540: [USR_INFO] Recognition
+2023-03-29 15:12:43.997585: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:12:43.998597: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 15:12:47.093354: [USER_INPUT] Input new image path:  - INPUT: [./images/1.20.png]
+2023-03-29 15:13:14.488937: [ERROR] Traceback (most recent call last):
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 127, in Recognition
+    loaded_img = io.imread(predict_img_path)
+  File "C:\Users\Student\anaconda3\lib\site-packages\skimage\io\_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "C:\Users\Student\anaconda3\lib\site-packages\skimage\io\manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "C:\Users\Student\anaconda3\lib\site-packages\skimage\io\_plugins\imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "C:\Users\Student\anaconda3\lib\site-packages\imageio\core\functions.py", line 265, in imread
+    reader = read(uri, format, "i", **kwargs)
+  File "C:\Users\Student\anaconda3\lib\site-packages\imageio\core\functions.py", line 172, in get_reader
+    request = Request(uri, "r" + mode, **kwargs)
+  File "C:\Users\Student\anaconda3\lib\site-packages\imageio\core\request.py", line 124, in __init__
+    self._parse_uri(uri)
+  File "C:\Users\Student\anaconda3\lib\site-packages\imageio\core\request.py", line 260, in _parse_uri
+    raise FileNotFoundError("No such file: '%s'" % fn)
+FileNotFoundError: No such file: 'C:\Users\Student\Documents\repos\ai_face_recognition\ai_face_recognition\images\1.20.png'
+
+2023-03-29 15:13:14.493938: [ERROR] Could not run prediction on image, due to error above
+2023-03-29 15:13:14.493938: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:13:14.494938: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:13:32.252905: [USR_INFO] Recognition
+2023-03-29 15:13:32.253910: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:13:32.254922: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:13:34.352757: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:13:34.353758: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:13:36.547399: [USR_INFO] Recognition
+2023-03-29 15:13:36.548379: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:13:36.549462: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 15:13:38.699267: [USER_INPUT] Input new image path:  - INPUT: [./images/0.5.png]
+2023-03-29 15:13:50.024592: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:13:50.026573: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:13:51.899484: [USR_INFO] Recognition
+2023-03-29 15:13:51.901485: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:13:51.902503: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:13:53.297162: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:13:53.298155: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:13:55.236147: [USR_INFO] Recognition
+2023-03-29 15:13:55.237100: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:13:55.238142: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:14:00.241407: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:14:00.243407: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:14:04.101114: [USR_INFO] Recognition
+2023-03-29 15:14:04.102155: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:14:04.103133: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 15:14:06.220026: [USER_INPUT] Input new image path:  - INPUT: [./images/1.30.jpg]
+2023-03-29 15:14:14.501245: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:14:14.503241: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:14:16.188502: [USR_INFO] Recognition
+2023-03-29 15:14:16.189428: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:14:16.190432: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:14:17.942324: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:14:17.943324: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:14:18.621043: [USR_INFO] Recognition
+2023-03-29 15:14:18.622014: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:14:18.622993: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:14:35.044029: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:14:35.045029: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:15:53.244734: [USR_INFO] Recognition
+2023-03-29 15:15:53.245666: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:15:53.246655: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 15:15:55.907617: [USER_INPUT] Input new image path:  - INPUT: [./images/1.46.jpeg]
+2023-03-29 15:16:06.815580: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:16:06.816683: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:16:08.309487: [USR_INFO] Recognition
+2023-03-29 15:16:08.310487: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:16:08.312487: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:16:15.040088: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:16:15.041090: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:16:17.909378: [USR_INFO] Recognition
+2023-03-29 15:16:17.910438: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:16:17.911443: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 15:16:19.316294: [USER_INPUT] Input new image path:  - INPUT: [./images/2.29.jpg]
+2023-03-29 15:16:29.113765: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:16:29.114711: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:16:31.924631: [USR_INFO] Recognition
+2023-03-29 15:16:31.925566: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:16:31.926607: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:16:34.351400: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:16:34.352404: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:16:36.244020: [USR_INFO] Recognition
+2023-03-29 15:16:36.244996: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:16:36.245996: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 15:16:37.619971: [USER_INPUT] Input new image path:  - INPUT: [./images/will_smith.jpg]
+2023-03-29 15:18:49.968988: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:18:49.969966: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:18:51.851875: [USR_INFO] Recognition
+2023-03-29 15:18:51.852860: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:18:51.854880: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:18:58.852436: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:18:58.854438: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:19:00.371940: [USR_INFO] Recognition
+2023-03-29 15:19:00.372935: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:19:00.373957: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:19:02.439773: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:19:02.440779: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:19:03.147916: [USR_INFO] Recognition
+2023-03-29 15:19:03.148851: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:19:03.149851: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 15:19:03.571904: [USER_INPUT] Input new image path:  - INPUT: [./images/jennifer_aniston.jpg]
+2023-03-29 15:19:14.588172: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:19:14.589172: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:19:15.981092: [USR_INFO] Recognition
+2023-03-29 15:19:15.982092: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:19:15.983092: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:19:45.277348: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:19:45.278348: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:20:04.021328: [USR_INFO] Recognition
+2023-03-29 15:20:04.022304: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:20:04.024304: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:20:05.852905: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:20:05.853925: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:21:28.156529: [USR_INFO] Recognition
+2023-03-29 15:21:28.157520: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:21:28.159583: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:21:31.024353: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:21:31.025350: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:21:31.908411: [USR_INFO] Recognition
+2023-03-29 15:21:31.909415: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:21:31.910422: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 15:21:32.260392: [USER_INPUT] Input new image path:  - INPUT: [./images/phil_p_1.jpeg]
+2023-03-29 15:21:41.533838: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:21:41.534811: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:21:42.483752: [USR_INFO] Recognition
+2023-03-29 15:21:42.484732: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:21:42.485732: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:21:44.951588: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:21:44.953586: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:21:46.492513: [USR_INFO] Recognition
+2023-03-29 15:21:46.493551: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:21:46.494529: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:21:48.138396: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:21:48.139396: [USER_INPUT] Input:  - INPUT: [24]
+2023-03-29 15:21:48.740955: [ERROR] Invalid input, pls try again!
+2023-03-29 15:21:48.741966: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:21:48.742986: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 15:22:01.161278: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:22:01.162281: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:22:04.564915: [USR_INFO] Recognition
+2023-03-29 15:22:04.565900: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:22:04.566878: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:22:07.055695: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:22:07.057692: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:22:07.812647: [USR_INFO] Recognition
+2023-03-29 15:22:07.813651: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:22:07.814686: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 15:22:08.499644: [USER_INPUT] Input new image path:  - INPUT: [./images/phil_p_2.jpeg]
+2023-03-29 15:22:12.540454: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:22:12.541449: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:22:13.852362: [USR_INFO] Recognition
+2023-03-29 15:22:13.853361: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:22:13.854355: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:22:28.841446: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:22:28.842445: [USER_INPUT] Input:  - INPUT: [7]
+2023-03-29 15:22:32.028328: [INFO] Exiting programm.
+2023-03-29 15:26:56.429650: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston'}
+2023-03-29 15:26:56.430648: [INFO] Initializing program!
+2023-03-29 15:27:30.818237: [INFO] Finished initializing! Programm starting!
+2023-03-29 15:27:30.819236: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 15:27:30.820234: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:27:30.821237: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:28:05.452714: [USR_INFO] Recognition
+2023-03-29 15:28:05.453693: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:28:05.453693: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 15:28:36.052447: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:28:36.053446: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:28:51.909200: [USR_INFO] Current model path: ./models/my_model.xml
+2023-03-29 15:28:51.910164: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-29 15:28:51.911125: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 15:29:26.581111: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:29:26.582171: [USER_INPUT] Input:  - INPUT: [6]
+2023-03-29 15:29:28.891974: [USR_INFO] No help yet:
+2023-03-29 15:29:28.892927: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:29:28.892927: [USER_INPUT] Input:  - INPUT: [5]
+2023-03-29 15:29:33.155673: [USR_INFO] Camera Settings
+2023-03-29 15:29:33.156673: [USR_INFO] Current Camera resolution: [640, 480], Recommended: [640,480]
+2023-03-29 15:29:33.156673: [INFO] (1) Change Camera resolution, (2) Test camera, (3) Go back
+2023-03-29 15:29:33.157672: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 15:29:35.876585: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:29:35.877552: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 15:29:53.993492: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:29:53.994491: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 15:29:58.061218: [USR_INFO] Dataset Settings
+2023-03-29 15:29:58.062264: [USR_INFO] Current Datasetpath: ./my_dataset
+2023-03-29 15:29:58.063250: [USR_INFO] Current HaarCascadePath: ./dataset/haarcascade_frontalface_default.xml
+2023-03-29 15:29:58.064221: [USR_INFO] (1) Add new person to dataset, (2) Change Datasetpath, (3) Change HaarCascade Path (4) Go back
+2023-03-29 15:29:58.066205: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 15:30:07.005739: [USER_INPUT] Input First Name: - INPUT: [Ruediger]
+2023-03-29 15:30:14.301259: [USER_INPUT] Input: Last Name: - INPUT: [Kelch]
+2023-03-29 15:30:55.823623: [USR_INFO] Dataset Settings
+2023-03-29 15:30:55.824623: [USR_INFO] Current Datasetpath: ./my_dataset
+2023-03-29 15:30:55.825626: [USR_INFO] Current HaarCascadePath: ./dataset/haarcascade_frontalface_default.xml
+2023-03-29 15:30:55.826623: [USR_INFO] (1) Add new person to dataset, (2) Change Datasetpath, (3) Change HaarCascade Path (4) Go back
+2023-03-29 15:30:55.827623: [USER_INPUT] Input:  - INPUT: [& C:/Users/Student/anaconda3/python.exe c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/testing_ground/data_sorting/rename_data.py]
+2023-03-29 15:32:56.482107: [ERROR] Invalid user input
+2023-03-29 15:32:56.483149: [USR_INFO] Dataset Settings
+2023-03-29 15:32:56.484091: [USR_INFO] Current Datasetpath: ./my_dataset
+2023-03-29 15:32:56.485091: [USR_INFO] Current HaarCascadePath: ./dataset/haarcascade_frontalface_default.xml
+2023-03-29 15:32:56.486121: [USR_INFO] (1) Add new person to dataset, (2) Change Datasetpath, (3) Change HaarCascade Path (4) Go back
+2023-03-29 15:35:49.256546: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston'}
+2023-03-29 15:35:49.257565: [INFO] Initializing program!
+2023-03-29 15:36:17.580823: [INFO] Finished initializing! Programm starting!
+2023-03-29 15:36:17.581823: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 15:36:17.581823: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:36:17.582825: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:36:23.532675: [USR_INFO] Recognition
+2023-03-29 15:36:23.533656: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:36:23.534739: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:36:35.137499: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:36:35.138492: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:36:42.053104: [USR_INFO] Recognition
+2023-03-29 15:36:42.054101: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:36:42.056081: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 15:36:47.628932: [USER_INPUT] Input new image path:  - INPUT: [phil_p_1.jpeg]
+2023-03-29 15:36:54.751534: [ERROR] Traceback (most recent call last):
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 132, in Recognition
+    loaded_img = io.imread(predict_img_path)
+  File "C:\Users\Student\anaconda3\lib\site-packages\skimage\io\_io.py", line 48, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "C:\Users\Student\anaconda3\lib\site-packages\skimage\io\manage_plugins.py", line 209, in call_plugin
+    return func(*args, **kwargs)
+  File "C:\Users\Student\anaconda3\lib\site-packages\skimage\io\_plugins\imageio_plugin.py", line 10, in imread
+    return np.asarray(imageio_imread(*args, **kwargs))
+  File "C:\Users\Student\anaconda3\lib\site-packages\imageio\core\functions.py", line 265, in imread
+    reader = read(uri, format, "i", **kwargs)
+  File "C:\Users\Student\anaconda3\lib\site-packages\imageio\core\functions.py", line 172, in get_reader
+    request = Request(uri, "r" + mode, **kwargs)
+  File "C:\Users\Student\anaconda3\lib\site-packages\imageio\core\request.py", line 124, in __init__
+    self._parse_uri(uri)
+  File "C:\Users\Student\anaconda3\lib\site-packages\imageio\core\request.py", line 260, in _parse_uri
+    raise FileNotFoundError("No such file: '%s'" % fn)
+FileNotFoundError: No such file: 'C:\Users\Student\Documents\repos\ai_face_recognition\ai_face_recognition\phil_p_1.jpeg'
+
+2023-03-29 15:36:54.756580: [ERROR] Could not run prediction on image, due to error above
+2023-03-29 15:36:54.757557: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:36:54.758552: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:36:58.389305: [USR_INFO] Recognition
+2023-03-29 15:36:58.390393: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:36:58.391323: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 15:36:58.932274: [USER_INPUT] Input new image path:  - INPUT: [./images/phil_p_1.jpeg]
+2023-03-29 15:37:06.785845: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:37:06.786799: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:37:08.093038: [USR_INFO] Recognition
+2023-03-29 15:37:08.094096: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:37:08.095189: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 15:37:14.426857: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:37:14.427848: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:37:19.764862: [USR_INFO] Recognition
+2023-03-29 15:37:19.765795: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:37:19.766730: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 15:37:43.975062: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:37:43.976064: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 15:37:48.437798: [USR_INFO] Dataset Settings
+2023-03-29 15:37:48.438835: [USR_INFO] Current Datasetpath: ./my_dataset
+2023-03-29 15:37:48.439832: [USR_INFO] Current HaarCascadePath: ./dataset/haarcascade_frontalface_default.xml
+2023-03-29 15:37:48.440808: [USR_INFO] (1) Add new person to dataset, (2) Change Datasetpath, (3) Change HaarCascade Path (4) Go back
+2023-03-29 15:37:48.442049: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 15:37:50.469759: [USER_INPUT] Input First Name: - INPUT: [Kevin]
+2023-03-29 15:37:53.253826: [USER_INPUT] Input: Last Name: - INPUT: [Lut]
+2023-03-29 15:38:31.345424: [USR_INFO] Dataset Settings
+2023-03-29 15:38:31.346398: [USR_INFO] Current Datasetpath: ./my_dataset
+2023-03-29 15:38:31.347434: [USR_INFO] Current HaarCascadePath: ./dataset/haarcascade_frontalface_default.xml
+2023-03-29 15:38:31.348395: [USR_INFO] (1) Add new person to dataset, (2) Change Datasetpath, (3) Change HaarCascade Path (4) Go back
+2023-03-29 15:38:31.349411: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:40:44.046090: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:40:44.047141: [USER_INPUT] Input:  - INPUT: [7]
+2023-03-29 15:40:45.452977: [INFO] Exiting programm.
+2023-03-29 15:40:55.727417: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston'}
+2023-03-29 15:40:55.728421: [INFO] Initializing program!
+2023-03-29 15:41:28.055475: [INFO] Finished initializing! Programm starting!
+2023-03-29 15:41:28.056475: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 15:41:28.056475: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:41:28.057475: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 15:41:47.861382: [USR_INFO] Recognition
+2023-03-29 15:41:47.862395: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 15:41:47.863386: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 15:42:00.174741: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:42:00.175741: [USER_INPUT] Input:  - INPUT: [7]
+2023-03-29 15:42:19.412960: [INFO] Exiting programm.
+2023-03-29 15:50:22.554568: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston'}
+2023-03-29 15:50:22.555583: [INFO] Initializing program!
+2023-03-29 15:50:54.270678: [INFO] Finished initializing! Programm starting!
+2023-03-29 15:50:54.271680: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 15:50:54.271680: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:50:54.272678: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 15:50:56.957519: [USR_INFO] Dataset Settings
+2023-03-29 15:50:56.958544: [USR_INFO] Current Datasetpath: ./my_dataset
+2023-03-29 15:50:56.958544: [USR_INFO] Current HaarCascadePath: ./dataset/haarcascade_frontalface_default.xml
+2023-03-29 15:50:56.959518: [USR_INFO] (1) Add new person to dataset, (2) Change Datasetpath, (3) Change HaarCascade Path (4) Go back
+2023-03-29 15:50:56.960518: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 15:51:00.517392: [USER_INPUT] Input First Name: - INPUT: [Kevin]
+2023-03-29 15:51:03.709118: [USER_INPUT] Input: Last Name: - INPUT: [Jak]
+2023-03-29 15:51:15.625219: [ERROR] Traceback (most recent call last):
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 180, in main
+    Dataset(cam, model)
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 58, in Dataset
+    addPersonToDataset()
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 42, in addPersonToDataset
+    add_person_to_dataset.main(dataset_path=dataset_path,
+  File "c:\Users\Student\Documents\repos\ai_face_recognition\ai_face_recognition\util\add_person_to_dataset.py", line 70, in main
+    PreProcessAndSaveImagesNewPerson(dataset_path_image, dataset_path_pp, new_id, camera_resolution)
+NameError: name 'camera_resolution' is not defined
+
+2023-03-29 15:51:15.629219: [ERROR] Exited programm by error above
+2023-03-29 15:53:25.203780: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston'}
+2023-03-29 15:53:25.204783: [INFO] Initializing program!
+2023-03-29 15:53:57.337848: [INFO] Finished initializing! Programm starting!
+2023-03-29 15:53:57.338848: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 15:53:57.339848: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:53:57.340848: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 15:54:02.494552: [USR_INFO] Dataset Settings
+2023-03-29 15:54:02.495564: [USR_INFO] Current Datasetpath: ./my_dataset
+2023-03-29 15:54:02.495564: [USR_INFO] Current HaarCascadePath: ./dataset/haarcascade_frontalface_default.xml
+2023-03-29 15:54:02.496545: [USR_INFO] (1) Add new person to dataset, (2) Change Datasetpath, (3) Change HaarCascade Path (4) Go back
+2023-03-29 15:54:02.497551: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 15:54:03.462664: [USER_INPUT] Input First Name: - INPUT: [Lu]
+2023-03-29 15:54:05.949560: [USER_INPUT] Input: Last Name: - INPUT: [Ching]
+2023-03-29 15:54:15.353605: [ERROR] Traceback (most recent call last):
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 180, in main
+    Dataset(cam, model)
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 58, in Dataset
+    addPersonToDataset()
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 42, in addPersonToDataset
+    add_person_to_dataset.main(dataset_path=dataset_path,
+  File "c:\Users\Student\Documents\repos\ai_face_recognition\ai_face_recognition\util\add_person_to_dataset.py", line 70, in main
+    PreProcessAndSaveImagesNewPerson(dataset_path_image, dataset_path_pp, new_id, cam_resolution=[cam.cam.cv2.CAP_PROP_FRAME_WIDTH,cam.cam.cv2.CAP_PROP_FRAME_HEIGHT])
+AttributeError: 'cv2.VideoCapture' object has no attribute 'cv2'
+
+2023-03-29 15:54:15.355603: [ERROR] Exited programm by error above
+2023-03-29 15:55:21.043415: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston'}
+2023-03-29 15:55:21.045394: [INFO] Initializing program!
+2023-03-29 15:55:52.164542: [INFO] Finished initializing! Programm starting!
+2023-03-29 15:55:52.165542: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 15:55:52.166543: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 15:55:52.167543: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 15:55:58.629225: [USR_INFO] Dataset Settings
+2023-03-29 15:55:58.630159: [USR_INFO] Current Datasetpath: ./my_dataset
+2023-03-29 15:55:58.632159: [USR_INFO] Current HaarCascadePath: ./dataset/haarcascade_frontalface_default.xml
+2023-03-29 15:55:58.632159: [USR_INFO] (1) Add new person to dataset, (2) Change Datasetpath, (3) Change HaarCascade Path (4) Go back
+2023-03-29 15:55:58.633172: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 15:55:59.958080: [USER_INPUT] Input First Name: - INPUT: [Cho]
+2023-03-29 15:56:02.997968: [USER_INPUT] Input: Last Name: - INPUT: [Pong]
+2023-03-29 15:56:10.021871: [ERROR] Traceback (most recent call last):
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 180, in main
+    Dataset(cam, model)
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 58, in Dataset
+    addPersonToDataset()
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 42, in addPersonToDataset
+    add_person_to_dataset.main(dataset_path=dataset_path,
+  File "c:\Users\Student\Documents\repos\ai_face_recognition\ai_face_recognition\util\add_person_to_dataset.py", line 70, in main
+    PreProcessAndSaveImagesNewPerson(dataset_path_image, dataset_path_pp, new_id, cam_resolution=[cam.cam.get(cv2.CAP_PROP_FRAME_WIDTH),cam.cam.get(cv2.CAP_PROP_FRAME_HEIGHT)])
+  File "c:\Users\Student\Documents\repos\ai_face_recognition\ai_face_recognition\src\misc\save_pre_processed_images.py", line 46, in PreProcessAndSaveImagesNewPerson
+    new_image = PIL_img.resize((new_resolution[0],new_resolution[1]))
+  File "C:\Users\Student\anaconda3\lib\site-packages\PIL\Image.py", line 1922, in resize
+    return self._new(self.im.resize(size, resample, box))
+ValueError: height and width must be > 0
+
+2023-03-29 15:56:10.024871: [ERROR] Exited programm by error above
+2023-03-29 15:58:40.327711: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston', '5': 'Cho Pong'}
+2023-03-29 15:58:40.328716: [INFO] Initializing program!
+2023-03-29 15:59:11.464084: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston'}
+2023-03-29 15:59:11.465084: [INFO] Initializing program!
+2023-03-29 15:59:45.644275: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston'}
+2023-03-29 15:59:45.645294: [INFO] Initializing program!
+2023-03-29 16:00:16.598411: [INFO] Finished initializing! Programm starting!
+2023-03-29 16:00:16.599411: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 16:00:16.600411: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 16:00:16.601411: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 16:00:20.597212: [USR_INFO] Recognition
+2023-03-29 16:00:20.598174: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 16:00:20.599173: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 16:00:23.446004: [USER_INPUT] Input new image path:  - INPUT: [C:/Users/Student/Desktop/edited_images/1.20.jpg]
+2023-03-29 16:01:25.240627: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 16:01:25.241625: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 16:01:28.021508: [USR_INFO] Recognition
+2023-03-29 16:01:28.022541: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 16:01:28.023512: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 16:02:12.216831: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 16:02:12.218833: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 16:02:14.263709: [USR_INFO] Recognition
+2023-03-29 16:02:14.263709: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 16:02:14.264712: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 16:02:54.561635: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 16:02:54.562635: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 16:04:37.749306: [USR_INFO] Dataset Settings
+2023-03-29 16:04:37.750305: [USR_INFO] Current Datasetpath: ./my_dataset
+2023-03-29 16:04:37.751305: [USR_INFO] Current HaarCascadePath: ./dataset/haarcascade_frontalface_default.xml
+2023-03-29 16:04:37.752305: [USR_INFO] (1) Add new person to dataset, (2) Change Datasetpath, (3) Change HaarCascade Path (4) Go back
+2023-03-29 16:04:37.753305: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 16:04:42.822095: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 16:04:42.823063: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-29 16:04:44.110627: [USR_INFO] Current model path: ./models/my_model.xml
+2023-03-29 16:04:44.111632: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-29 16:04:44.112650: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-29 16:04:46.381442: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 16:04:46.382464: [USER_INPUT] Input:  - INPUT: [& C:/Users/Student/anaconda3/python.exe c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/classes/model.py]
+2023-03-29 16:13:13.609706: [ERROR] Invalid input, pls try again!
+2023-03-29 16:13:13.610669: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 16:13:13.611669: [USER_INPUT] Input:  - INPUT: [7]
+2023-03-29 16:13:16.150580: [INFO] Exiting programm.
+2023-03-29 16:14:19.778982: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston', '5': 'Lee Chong', '6': 'Tyler Paul', '7': 'Huan Paulo', '8': 'John West', '9': 'Joachim Gunt', '10': 'Paris Leblain'}
+2023-03-29 16:14:19.780983: [INFO] Initializing program!
+2023-03-29 16:14:51.463074: [INFO] Finished initializing! Programm starting!
+2023-03-29 16:14:51.464074: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-29 16:14:51.465074: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-29 16:14:51.466074: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-29 16:14:57.630724: [USR_INFO] Recognition
+2023-03-29 16:14:57.632708: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-29 16:14:57.633708: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-29 16:15:24.044929: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 10:14:28.313540: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston', '5': 'Lee Chong', '6': 'Tyler Paul', '7': 'Huan Paulo', '8': 'John West', '9': 'Joachim Gunt', '10': 'Paris Leblain'}
+2023-03-30 10:14:28.507526: [INFO] Initializing program!
+2023-03-30 10:14:31.685336: [INFO] Finished initializing! Programm starting!
+2023-03-30 10:14:31.686336: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-30 10:14:31.687378: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 10:14:31.687378: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-30 10:14:34.873164: [USR_INFO] Dataset Settings
+2023-03-30 10:14:34.874160: [USR_INFO] Current Datasetpath: ./my_dataset
+2023-03-30 10:14:34.874160: [USR_INFO] Current HaarCascadePath: ./dataset/haarcascade_frontalface_default.xml
+2023-03-30 10:14:34.875166: [USR_INFO] (1) Add new person to dataset, (2) Change Datasetpath, (3) Change HaarCascade Path (4) Go back
+2023-03-30 10:14:34.876173: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-30 10:16:15.082495: [USER_INPUT] Input First Name: - INPUT: [Test]
+2023-03-30 10:16:57.209638: [USER_INPUT] Input: Last Name: - INPUT: [Tester]
+2023-03-30 10:19:37.681346: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston', '5': 'Lee Chong', '6': 'Tyler Paul', '7': 'Huan Paulo', '8': 'John West', '9': 'Joachim Gunt', '10': 'Paris Leblain'}
+2023-03-30 10:19:37.682338: [INFO] Initializing program!
+2023-03-30 10:19:39.566236: [INFO] Finished initializing! Programm starting!
+2023-03-30 10:19:39.567246: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-30 10:19:39.568176: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 10:19:39.569223: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-30 10:20:28.432751: [USR_INFO] Current model path: ./models/my_model.xml
+2023-03-30 10:20:28.433728: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-30 10:20:28.434725: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-30 10:22:09.345357: [USER_INPUT] Input amount of epochs:  - INPUT: [3]
+2023-03-30 10:23:27.577368: [ERROR] Could not change epoch amount, now training for 3 epochs!
+2023-03-30 10:23:27.578396: [USR_INFO] Do not stop this process until the training is finished! Otherwise the model could become corrupted!
+2023-03-30 10:23:32.676529: [INFO] [INFO] Epoch time: 1/3 - Status %: 35.7 - Time of epoch: 3.1962831020355225s
+2023-03-30 10:23:37.041295: [INFO] [INFO] Epoch time: 2/3 - Status %: 84.44 - Time of epoch: 4.363765716552734s
+2023-03-30 10:23:42.795075: [INFO] [INFO] Epoch time: 3/3 - Status %: 148.7 - Time of epoch: 5.752782344818115s
+2023-03-30 10:23:42.796077: [INFO] Training completed - Total training time: 15.216699361801147 - Calculated time correctness: 149.0
+2023-03-30 10:23:42.797027: [USR_INFO] Reloading trained model.
+2023-03-30 10:23:49.601406: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 10:23:49.602412: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-30 10:25:49.530184: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston', '5': 'Lee Chong', '6': 'Tyler Paul', '7': 'Huan Paulo', '8': 'John West', '9': 'Joachim Gunt', '10': 'Paris Leblain'}
+2023-03-30 10:25:49.531230: [INFO] Initializing program!
+2023-03-30 10:26:23.887454: [INFO] Finished initializing! Programm starting!
+2023-03-30 10:26:23.888515: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-30 10:26:23.889437: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 10:26:23.890469: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-30 10:26:43.208397: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 10:26:43.209392: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-30 10:27:21.974007: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 10:27:21.975012: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-30 10:28:47.098535: [USR_INFO] Recognition
+2023-03-30 10:28:47.099490: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-30 10:28:47.100533: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-30 10:33:29.071425: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston', '5': 'Lee Chong', '6': 'Tyler Paul', '7': 'Huan Paulo', '8': 'John West', '9': 'Joachim Gunt', '10': 'Paris Leblain'}
+2023-03-30 10:33:29.073444: [INFO] Initializing program!
+2023-03-30 10:34:03.462521: [INFO] Finished initializing! Programm starting!
+2023-03-30 10:34:03.463393: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-30 10:34:03.465411: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 10:34:03.465411: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-30 10:34:05.842290: [USR_INFO] Recognition
+2023-03-30 10:34:05.843281: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-30 10:34:05.844238: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-30 10:34:10.730074: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 10:34:10.731074: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-30 10:34:14.106945: [USR_INFO] Recognition
+2023-03-30 10:34:14.106945: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-30 10:34:14.108888: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-30 10:34:18.579814: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 10:34:18.580814: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-30 10:34:20.465757: [USR_INFO] Recognition
+2023-03-30 10:34:20.466701: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-30 10:34:20.467731: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-30 10:35:19.350605: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 10:35:19.351625: [USER_INPUT] Input:  - INPUT: [7]
+2023-03-30 10:37:24.978314: [INFO] Exiting programm.
+2023-03-30 10:37:28.802098: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston', '5': 'Lee Chong', '6': 'Tyler Paul', '7': 'Huan Paulo', '8': 'John West', '9': 'Joachim Gunt', '10': 'Paris Leblain'}
+2023-03-30 10:37:28.803104: [INFO] Initializing program!
+2023-03-30 10:38:03.195859: [INFO] Finished initializing! Programm starting!
+2023-03-30 10:38:03.197890: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-30 10:38:03.198840: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 10:38:03.199885: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-30 10:38:44.933562: [USR_INFO] Recognition
+2023-03-30 10:38:44.934616: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-30 10:38:44.935621: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-30 10:40:00.537093: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 10:40:00.539125: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-30 10:40:23.232517: [USR_INFO] Recognition
+2023-03-30 10:40:23.233565: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-30 10:40:23.234525: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-30 10:41:09.006043: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 10:41:09.007032: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-30 10:41:48.339267: [USR_INFO] Recognition
+2023-03-30 10:41:48.340240: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-30 10:41:48.341242: [USER_INPUT] Input:  - INPUT: [5]
+2023-03-30 10:43:54.114264: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 10:43:54.115300: [USER_INPUT] Input:  - INPUT: [7]
+2023-03-30 10:43:55.938206: [INFO] Exiting programm.
+2023-03-30 14:21:50.678393: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston', '5': 'Lee Chong', '6': 'Tyler Paul', '7': 'Huan Paulo', '8': 'John West', '9': 'Joachim Gunt', '10': 'Paris Leblain'}
+2023-03-30 14:21:50.679413: [INFO] Initializing program!
+2023-03-30 14:22:24.822616: [INFO] Finished initializing! Programm starting!
+2023-03-30 14:22:24.823616: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-30 14:22:24.824616: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 14:22:24.824616: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-30 14:22:29.348406: [USR_INFO] Recognition
+2023-03-30 14:22:29.349414: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-30 14:22:29.350408: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-30 14:22:33.210116: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 14:22:33.212180: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-30 14:22:34.811365: [USR_INFO] Recognition
+2023-03-30 14:22:34.812376: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-30 14:22:34.813310: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-30 14:22:37.749262: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 14:22:37.750190: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-30 14:22:38.524215: [USR_INFO] Recognition
+2023-03-30 14:22:38.525153: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-30 14:22:38.526145: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-30 14:22:46.263722: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 14:22:46.265760: [USER_INPUT] Input:  - INPUT: [3]
+2023-03-30 14:23:06.560889: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 14:23:06.561864: [USER_INPUT] Input:  - INPUT: [5]
+2023-03-30 14:23:09.724753: [USR_INFO] Camera Settings
+2023-03-30 14:23:09.725675: [USR_INFO] Current Camera resolution: [640, 480], Recommended: [640,480]
+2023-03-30 14:23:09.726723: [INFO] (1) Change Camera resolution, (2) Test camera, (3) Go back
+2023-03-30 14:23:09.727688: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-30 14:23:12.645624: [INFO] Initializing camera.
+2023-03-30 14:23:22.196009: [INFO] Camera initialized.
+2023-03-30 14:23:27.404741: [INFO] Exiting program
+2023-03-30 14:23:27.405739: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 14:23:27.406729: [USER_INPUT] Input:  - INPUT: [6]
+2023-03-30 14:23:29.972580: [USR_INFO] No help yet:
+2023-03-30 14:23:29.973576: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 14:23:29.975521: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-30 14:23:31.500447: [USR_INFO] Dataset Settings
+2023-03-30 14:23:31.501451: [USR_INFO] Current Datasetpath: ./my_dataset
+2023-03-30 14:23:31.502498: [USR_INFO] Current HaarCascadePath: ./dataset/haarcascade_frontalface_default.xml
+2023-03-30 14:23:31.503478: [USR_INFO] (1) Add new person to dataset, (2) Change Datasetpath, (3) Change HaarCascade Path (4) Go back
+2023-03-30 14:23:31.504464: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-30 14:23:35.203267: [USER_INPUT] Input First Name: - INPUT: [ToRemove]
+2023-03-30 14:23:38.398061: [USER_INPUT] Input: Last Name: - INPUT: [ToRemoveLast]
+2023-03-30 14:27:17.951579: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston', '5': 'Lee Chong', '6': 'Tyler Paul', '7': 'Huan Paulo', '8': 'John West', '9': 'Joachim Gunt', '10': 'Paris Leblain'}
+2023-03-30 14:27:17.952623: [INFO] Initializing program!
+2023-03-30 14:27:52.417086: [INFO] Finished initializing! Programm starting!
+2023-03-30 14:27:52.419039: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-30 14:27:52.419039: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 14:27:52.420041: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-30 14:29:00.531805: [USR_INFO] Dataset Settings
+2023-03-30 14:29:00.532755: [USR_INFO] Current Datasetpath: ./my_dataset
+2023-03-30 14:29:00.533758: [USR_INFO] Current HaarCascadePath: ./dataset/haarcascade_frontalface_default.xml
+2023-03-30 14:29:00.534811: [USR_INFO] (1) Add new person to dataset, (2) Change Datasetpath, (3) Change HaarCascade Path (4) Go back
+2023-03-30 14:29:00.535783: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-30 14:29:02.931540: [USER_INPUT] Input First Name: - INPUT: [ToRemoveNew]
+2023-03-30 14:29:07.957158: [USER_INPUT] Input: Last Name: - INPUT: [ToRemoveLastNew]
+2023-03-30 14:29:35.138992: [USR_INFO] Creating model
+2023-03-30 14:29:35.142998: [ERROR] Traceback (most recent call last):
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 180, in main
+    Dataset(cam, model)
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 59, in Dataset
+    model.createModel(model.model_path, dataset_path)
+  File "c:\Users\Student\Documents\repos\ai_face_recognition\ai_face_recognition\classes\model.py", line 130, in createModel
+    faces, ids = getImagesAndLabelsPreProcessed(data_set_path)
+  File "c:\Users\Student\Documents\repos\ai_face_recognition\ai_face_recognition\classes\model.py", line 120, in getImagesAndLabelsPreProcessed
+    PIL_img = Image.open(path + "/" + id_path + "/" + tmp_pic_path)
+  File "C:\Users\Student\anaconda3\lib\site-packages\PIL\Image.py", line 2891, in open
+    fp = builtins.open(filename, "rb")
+PermissionError: [Errno 13] Permission denied: './my_dataset/images/1'
+
+2023-03-30 14:29:35.146001: [ERROR] Exited programm by error above
+2023-03-30 14:32:43.508131: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston', '5': 'Lee Chong', '6': 'Tyler Paul', '7': 'Huan Paulo', '8': 'John West', '9': 'Joachim Gunt', '10': 'Paris Leblain'}
+2023-03-30 14:32:43.510186: [INFO] Initializing program!
+2023-03-30 14:33:19.769942: [INFO] Finished initializing! Programm starting!
+2023-03-30 14:33:19.771956: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-30 14:33:19.772975: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 14:33:19.772975: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-30 14:33:28.524418: [USR_INFO] Dataset Settings
+2023-03-30 14:33:28.525436: [USR_INFO] Current Datasetpath: ./my_dataset
+2023-03-30 14:33:28.526421: [USR_INFO] Current HaarCascadePath: ./dataset/haarcascade_frontalface_default.xml
+2023-03-30 14:33:28.527416: [USR_INFO] (1) Add new person to dataset, (2) Change Datasetpath, (3) Change HaarCascade Path (4) Go back
+2023-03-30 14:33:28.528429: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-30 14:33:32.637178: [USER_INPUT] Input First Name: - INPUT: [Yo]
+2023-03-30 14:33:36.955960: [USER_INPUT] Input: Last Name: - INPUT: [Ho]
+2023-03-30 14:33:57.900910: [USR_INFO] Creating model
+2023-03-30 14:33:57.905950: [ERROR] Traceback (most recent call last):
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 180, in main
+    Dataset(cam, model)
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 59, in Dataset
+    model.createModel(model.model_path, dataset_path)
+  File "c:\Users\Student\Documents\repos\ai_face_recognition\ai_face_recognition\classes\model.py", line 133, in createModel
+    faces, ids = getImagesAndLabelsPreProcessed(data_set_path)
+  File "c:\Users\Student\Documents\repos\ai_face_recognition\ai_face_recognition\classes\model.py", line 123, in getImagesAndLabelsPreProcessed
+    PIL_img = Image.open(new_path)
+  File "C:\Users\Student\anaconda3\lib\site-packages\PIL\Image.py", line 2891, in open
+    fp = builtins.open(filename, "rb")
+PermissionError: [Errno 13] Permission denied: './my_dataset/images/1'
+
+2023-03-30 14:33:57.909909: [ERROR] Exited programm by error above
+2023-03-30 14:40:40.011427: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston', '5': 'Lee Chong', '6': 'Tyler Paul', '7': 'Huan Paulo', '8': 'John West', '9': 'Joachim Gunt', '10': 'Paris Leblain'}
+2023-03-30 14:40:40.013419: [INFO] Initializing program!
+2023-03-30 14:41:14.299551: [INFO] Finished initializing! Programm starting!
+2023-03-30 14:41:14.300551: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-30 14:41:14.301551: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 14:41:14.301551: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-30 14:41:42.092699: [USR_INFO] Dataset Settings
+2023-03-30 14:41:42.092699: [USR_INFO] Current Datasetpath: ./my_dataset
+2023-03-30 14:41:42.093700: [USR_INFO] Current HaarCascadePath: ./dataset/haarcascade_frontalface_default.xml
+2023-03-30 14:41:42.094743: [USR_INFO] (1) Add new person to dataset, (2) Change Datasetpath, (3) Change HaarCascade Path (4) Go back
+2023-03-30 14:41:42.095703: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-30 14:41:43.067665: [USER_INPUT] Input First Name: - INPUT: [hoo]
+2023-03-30 14:41:45.019579: [USER_INPUT] Input: Last Name: - INPUT: [boo]
+2023-03-30 14:42:02.608937: [USR_INFO] Creating model
+2023-03-30 14:42:02.614936: [ERROR] Traceback (most recent call last):
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 180, in main
+    Dataset(cam, model)
+  File "c:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/main.py", line 59, in Dataset
+    model.createModel(model.model_path, dataset_path)
+  File "c:\Users\Student\Documents\repos\ai_face_recognition\ai_face_recognition\classes\model.py", line 139, in createModel
+    faces, ids = getImagesAndLabelsPreProcessed(data_set_path)
+  File "c:\Users\Student\Documents\repos\ai_face_recognition\ai_face_recognition\classes\model.py", line 128, in getImagesAndLabelsPreProcessed
+    PIL_img = Image.open(new_path)
+  File "C:\Users\Student\anaconda3\lib\site-packages\PIL\Image.py", line 2891, in open
+    fp = builtins.open(filename, "rb")
+PermissionError: [Errno 13] Permission denied: './my_dataset/images/1'
+
+2023-03-30 14:42:02.617913: [ERROR] Exited programm by error above
+2023-03-30 14:44:11.259284: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston', '5': 'Lee Chong', '6': 'Tyler Paul', '7': 'Huan Paulo', '8': 'John West', '9': 'Joachim Gunt', '10': 'Paris Leblain'}
+2023-03-30 14:44:11.261266: [INFO] Initializing program!
+2023-03-30 14:44:45.582385: [INFO] Finished initializing! Programm starting!
+2023-03-30 14:44:45.583414: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-30 14:44:45.584379: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 14:44:45.585361: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-30 14:44:47.813213: [USR_INFO] Dataset Settings
+2023-03-30 14:44:47.814213: [USR_INFO] Current Datasetpath: ./my_dataset
+2023-03-30 14:44:47.815213: [USR_INFO] Current HaarCascadePath: ./dataset/haarcascade_frontalface_default.xml
+2023-03-30 14:44:47.816213: [USR_INFO] (1) Add new person to dataset, (2) Change Datasetpath, (3) Change HaarCascade Path (4) Go back
+2023-03-30 14:44:47.817214: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-30 14:44:48.765197: [USER_INPUT] Input First Name: - INPUT: [Look]
+2023-03-30 14:44:50.221141: [USER_INPUT] Input: Last Name: - INPUT: [Here]
+2023-03-30 14:45:05.661553: [USR_INFO] Creating model
+2023-03-30 14:45:05.797575: [USR_INFO] [LOADING DATASET] Status: 1 / 11 - Status %: 9.09
+2023-03-30 14:45:05.821577: [USR_INFO] [LOADING DATASET] Status: 2 / 11 - Status %: 18.18
+2023-03-30 14:45:05.881542: [USR_INFO] [LOADING DATASET] Status: 3 / 11 - Status %: 27.27
+2023-03-30 14:45:05.954516: [USR_INFO] [LOADING DATASET] Status: 4 / 11 - Status %: 36.36
+2023-03-30 14:45:05.966515: [USR_INFO] [LOADING DATASET] Status: 5 / 11 - Status %: 45.45
+2023-03-30 14:45:05.979514: [USR_INFO] [LOADING DATASET] Status: 6 / 11 - Status %: 54.55
+2023-03-30 14:45:06.004582: [USR_INFO] [LOADING DATASET] Status: 7 / 11 - Status %: 63.64
+2023-03-30 14:45:06.032593: [USR_INFO] [LOADING DATASET] Status: 8 / 11 - Status %: 72.73
+2023-03-30 14:45:06.056600: [USR_INFO] [LOADING DATASET] Status: 9 / 11 - Status %: 81.82
+2023-03-30 14:45:06.089507: [USR_INFO] [LOADING DATASET] Status: 10 / 11 - Status %: 90.91
+2023-03-30 14:45:06.098547: [USR_INFO] [LOADING DATASET] Status: 11 / 11 - Status %: 100.0
+2023-03-30 14:45:07.988413: [USR_INFO] Model created!
+2023-03-30 14:45:07.989491: [USR_INFO] Dataset Settings
+2023-03-30 14:45:07.990436: [USR_INFO] Current Datasetpath: ./my_dataset
+2023-03-30 14:45:07.991418: [USR_INFO] Current HaarCascadePath: ./dataset/haarcascade_frontalface_default.xml
+2023-03-30 14:45:07.992401: [USR_INFO] (1) Add new person to dataset, (2) Change Datasetpath, (3) Change HaarCascade Path (4) Go back
+2023-03-30 14:45:07.993453: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-30 14:45:12.957122: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 14:45:12.958099: [USER_INPUT] Input:  - INPUT: [7]
+2023-03-30 14:45:29.724892: [INFO] Exiting programm.
+2023-03-30 14:46:02.512166: [INFO] Loaded person dict: {'1': 'Phil Puk', '2': 'Laurenz R', '3': 'Will Smith', '4': 'Jennifer Aniston', '5': 'Lee Chong', '6': 'Tyler Paul', '7': 'Huan Paulo', '8': 'John West', '9': 'Joachim Gunt', '10': 'Paris Leblain'}
+2023-03-30 14:46:02.513164: [INFO] Initializing program!
+2023-03-30 14:46:35.406296: [INFO] Finished initializing! Programm starting!
+2023-03-30 14:46:35.408319: [INFO] Welcome to AI_FACE_Recognition!
+2023-03-30 14:46:35.409326: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 14:46:35.409326: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-30 14:46:40.732988: [USR_INFO] Current model path: ./models/my_model.xml
+2023-03-30 14:46:40.733992: [USR_INFO] (1) Change model path and load model, (2) Train Model, (3) Go back
+2023-03-30 14:46:40.734975: [USER_INPUT] Input:  - INPUT: [2]
+2023-03-30 14:46:42.676902: [USER_INPUT] Input amount of epochs:  - INPUT: [2]
+2023-03-30 14:46:44.268811: [ERROR] Could not change epoch amount, now training for 3 epochs!
+2023-03-30 14:46:44.269726: [USR_INFO] Do not stop this process until the training is finished! Otherwise the model could become corrupted!
+2023-03-30 14:46:44.270793: [USR_INFO] Approximately total time will be: 4.266s
+2023-03-30 14:46:47.925532: [INFO] [INFO] Epoch time: 1/2 - Status %: 82.76 - Time of epoch: 3.530773401260376s
+2023-03-30 14:46:52.379283: [INFO] [INFO] Epoch time: 2/2 - Status %: 187.12 - Time of epoch: 4.4517741203308105s
+2023-03-30 14:46:52.380283: [INFO] Training completed - Total training time: 8.109490156173706 - Calculated time correctness: 187.0
+2023-03-30 14:46:52.382364: [USR_INFO] Reloading trained model.
+2023-03-30 14:46:57.638966: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 14:46:57.640957: [USER_INPUT] Input:  - INPUT: [4]
+2023-03-30 14:47:00.173832: [USR_INFO] Recognition
+2023-03-30 14:47:00.174841: [USR_INFO] (1) Predict on webcam, (2) Predict on Images, (3) Set Image path to predict, (4) Show current image, (5) Go back
+2023-03-30 14:47:00.175781: [USER_INPUT] Input:  - INPUT: [1]
+2023-03-30 14:48:59.795228: [USR_INFO] (1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit
+2023-03-30 14:48:59.797301: [USER_INPUT] Input:  - INPUT: [7]
+2023-03-30 14:49:05.140934: [INFO] Exiting programm.

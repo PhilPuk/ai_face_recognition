@@ -1,5 +1,6 @@
 import time
 import datetime
+import cv2
 
 def msgWithTime(message, code_index):
     '''
@@ -22,4 +23,16 @@ def logInput(message):
         f.write(msg + "\n")
     return str(user_input)
     
-    
+def printingWindow(img, window_title="Window", resizable=True):
+    '''
+    Creates a window where the given image will be shown.
+    @param img: img to show. @param window_title: Name of the window. @param resizable: Should the window be able to change its size.
+    '''
+    if resizable:
+        cv2.namedWindow(window_title, cv2.WINDOW_NORMAL)
+    else:
+        cv2.namedWindow(window_title)
+        
+    cv2.imshow(window_title,img)
+    cv2.waitKey()
+    cv2.destroyAllWindows()

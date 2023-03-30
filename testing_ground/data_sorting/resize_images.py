@@ -14,4 +14,4 @@ def resizeImagesInDir(src_path,new_path, resolution):
     print("Resizing finished!")
 
 # Test sample
-resizeImagesInDir("C:/Users/Student/Documents/datasets/personal_set/images/2/","C:/Users/Student/Desktop/resized/", (256,192))
+resizeImagesInDir("C:/Users/Student/Desktop/pre_resize/3/","C:/Users/Student/Desktop/resized/", (256,192))

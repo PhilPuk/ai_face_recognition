@@ -1,20 +1,25 @@
-import time
-start_time = time.time()
 import cv2
-import os
-clear = lambda: os.system('cls')
+# ADD PERSON DICT
 
-print(cv2.__version__)
-#change to opencv version 3.4.18.65
-
-class ModelPath():
-    def __init__(self, modelNumber):
-        self.trainers_path = "C:/Users/Student/Documents/models"
-        self.trainer_main_name = "_percent_trainer"
-        self.trainer_names = ["1","5","10"]
-        self.model_number = modelNumber
-        self.choosen_trainer = f"{self.trainers_path}/{self.trainer_names[self.model_number]}{self.trainer_main_name}.xml"
-model = ModelPath(0)
+def getNamesAndIDSfromTXT(names_txt_path):
+    '''
+    Returns a dictionary of our ids and the perons that correspond to them.
+    @param names_txt_path: Path to our names.txt file of our dataset.
+    '''
+    # Opens txt file in reading mode
+    with open(names_txt_path, "r") as f:
+        # Read all lines of txt in a list
+        lines = f.readlines()
+        # Initialize dictionary
+        persons = dict()
+        # Loop over each line of txt
+        for line in lines:
+            # Seperate line info
+            info = line.split()
+            # Add information to dictionary 
+            persons[info[2]] = f"{info[0]} {info[1]}"
+        # Return our dictionary
+        return persons
 
 class Camera():
     def __init__(self, resolution):
@@ -25,65 +30,60 @@ class Camera():
         self.cam.set(4,self.height)
         self.minW = 0.25*self.cam.get(3)
         self.minH = 0.25*self.cam.get(4)
+# Initializing our camera 
 Cam = Camera([640,480])
-
-def printMessageWithTime(message):
-    print(f"{message} - Time: {time.time() - start_time}s")
-
-printMessageWithTime("[INFO] Programm started!")
-cascadePath = "C:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition/testing/haarcascade_frontalface_default.xml"
-faceCascade = cv2.CascadeClassifier(cascadePath)
-printMessageWithTime("[INFO] CascadeClassifier loaded!")
+# Loading up the haarcascade_frontalface_default.xml file
+faceCascade = cv2.CascadeClassifier("./dataset/haarcascade_frontalface_default.xml")
+# Load up our model change the path to your models path
 recognizer = cv2.face.LBPHFaceRecognizer_create()
-recognizer.read(model.choosen_trainer) # Choose model
-printMessageWithTime("[INFO] Trainer loaded!")
-font = cv2.FONT_HERSHEY_SCRIPT_SIMPLEX
+recognizer.read("./models/my_model.xml")
+font = cv2.FONT_HERSHEY_TRIPLEX
+# Load our person dictionary
+person_dict = getNamesAndIDSfromTXT("./my_dataset/names.txt")
+#Init cam with resolution 640x480
 
-#Init cam
-cam = cv2.VideoCapture(0)
-cam.set(3,640) #width
-cam.set(4,480) #height
-
-#Min window for faces
-minW = 0.1*cam.get(3)
-minH = 0.1*cam.get(4)
-printMessageWithTime("[INFO] Camera set up!")
-
+# Main loop
 while True:
-    start_time = time.time()
-    clear()
-    ret, img = cam.read()
-    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    faces = faceCascade.detectMultiScale(
-        gray,
-        scaleFactor=1.05,
-        minNeighbors=5,
-        minSize=(int(minW),int(minH)),
-        maxSize=(400,400)
-    )
-    id = 0
-    confidence = 0
-    for(x,y,w,h) in faces:
-        cv2.rectangle(img, (x,y),(x+w,y+h), (0,255,0), 2)
-        id, confidence = recognizer.predict(gray[y:y+h,x:x+w])
-        if confidence < 100:
-            id = str(id)            
-        else:
-            id = "unknown"
-        confidence = "  {0}%".format(round(100-confidence))
-        cv2.putText(img, str(id), (x+5,y-5),font,1,(255,255,255),2)
-        cv2.putText(img,str(confidence),(x+5,y+h-5),font,1,(255,255,0),1)
-    end_time = time.time()
-    try:
-        fps = 1.0 / (end_time - start_time)
-    except:
-        print("Can not calculate fps, due to divison by 0!")
-    print(f"[INFO] Time for detection: {end_time - start_time} - FPS: {fps}, Detected Person: {id} - Confidence: {confidence}")
-    cv2.imshow('camera',img)
-    k = cv2.waitKey(10) & 0xff
+    # Read camera frame by frame
+    ret, img = Cam.cam.read()
+    # Check if camera frame exists
+    if ret:
+        # Convert frame to grayscaled frame
+        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        # Detect faces
+        faces = faceCascade.detectMultiScale(
+            gray,
+            scaleFactor=1.05,
+            minNeighbors=5,
+            minSize=(int(Cam.minW),int(Cam.minH)),
+            maxSize=(400,400)
+        )
+        # Initializing variables for storing person id and confidence of prediction
+        id = 0
+        confidence = 0
+        # Loop over detected faces
+        for(x,y,w,h) in faces:
+            # Put rectangles on faces
+            cv2.rectangle(img, (x,y),(x+w,y+h), (0,255,0), 2)
+            # Predict person inside rectangles
+            id, confidence = recognizer.predict(gray[y:y+h,x:x+w])
+            # Check if the person is known
+            if confidence < 100:
+                if id <= len(person_dict):
+                    id = person_dict[str(id)] + " - " + str(id)
+                else:
+                    id = str(id)
+            else:
+                id = "unknown"
+            # Create text for confidence
+            confidence = "  {0}%".format(round(100-confidence))
+            # Put confidence and person name + id on the frame
+            cv2.putText(img, str(id), (x+5,y-5),font,1,(255,255,255),2)
+            cv2.putText(img,str(confidence),(x+5,y+h-5),font,1,(255,255,0),1)
+        # Display frame to camera window
+        cv2.imshow('camera',img)
+    k = cv2.waitKey(20)
     if k == 27:
         break
-
-cam.release()
+Cam.release()
 cv2.destroyAllWindows()
-print("\n[INFO] Exiting program")

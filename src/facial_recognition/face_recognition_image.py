@@ -35,6 +35,7 @@ def printingWindow(img, window_title="Window", resizable=True):
     cv2.imshow(window_title,img)
     cv2.waitKey()
     
+    
 def face_recognition_image(img, gray_scaled_image, faces, recognizer_model, font=cv2.FONT_HERSHEY_TRIPLEX, font_scale=1):
     '''
     Returns the img with a name, id and the confidence of the predicion on it.

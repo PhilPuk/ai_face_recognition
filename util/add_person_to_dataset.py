@@ -2,7 +2,7 @@ import cv2
 import os
 import time
 import sys
-sys.path.append('C:/Users/Student/Documents/repos/ai_face_recognition/ai_face_recognition')
+sys.path.append('./')
 clear = lambda: os.system('cls')
 from classes.camera import Camera
 from src.misc.save_pre_processed_images import PreProcessAndSaveImagesNewPerson
@@ -10,17 +10,17 @@ from src.misc.save_pre_processed_images import PreProcessAndSaveImagesNewPerson
 def getLatestID(path):
     return len(os.listdir(path))
 
-def main(dataset_path, person_first_name, person_last_name, names_txt_path,already_in_set=False, id=None):
+def main(dataset_path, person_first_name, person_last_name, names_txt_path,cam, already_in_set=False, id=None):
     '''
     Opens the camera and lets you take picutres while its running, press space to take a picture, esc to exit the programm.
     @param dataset_path: The path to the dataset directory
     @param person_first_name: The first name of the new person. Leave blank if already_in_set = False!
     @param person_last_name: The last name of the new person. Leave blank if already_in_set = False!
     @param names_txt_path: The path to the names.txt file
+    @param cam: Camera object
     @param already_in_set: If you want to add more pictures to an already existing person
     @param id: Only use if you add more pictures to an already existing person! Add the id of the person from the dataset
     '''
-    cam = Camera([640,480])
     dataset_path_image = dataset_path + "/images"
     dataset_path_pp = dataset_path + "/pre_processed"
     if not already_in_set:
@@ -39,6 +39,7 @@ def main(dataset_path, person_first_name, person_last_name, names_txt_path,alrea
     else:
         print("Could not initialize! Exiting program!")
         return
+    cam.cam = cv2.VideoCapture(0)
     while True:
         start_time = time.time()
         #clear()
@@ -68,7 +69,4 @@ def main(dataset_path, person_first_name, person_last_name, names_txt_path,alrea
     cam.cam.release()
     cv2.destroyAllWindows()
     PreProcessAndSaveImagesNewPerson(dataset_path_image, dataset_path_pp, new_id)
-    print("\n[INFO] Exiting program")
-
-#Test sample 
-#main("C:/Users/Student/Documents/datasets/personal_set", "Max", "Schurle", "C:/Users/Student/Documents/datasets/personal_set/names.txt")
+    #print("\n[INFO] Exiting program")

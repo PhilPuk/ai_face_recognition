@@ -68,7 +68,6 @@ def Dataset(cam, model):
         
 def Modell(model):
     global trained_epochs
-    # add creating model
     global haarCascadePath
     global dataset_path
     global model_path
@@ -100,6 +99,7 @@ def Modell(model):
 
 def Detection(cam_object):
     global haarCascadePath
+    msgWithTime("Initializing Detection!", 2)
     face_detection.main(cam_object, haarCascadePath)
 
 def Recognition(model, cam):
@@ -114,6 +114,7 @@ def Recognition(model, cam):
     usr_input = logInput("Input: ")
     if usr_input == "1":
         try:
+            msgWithTime("Initializing Predicting on webcam!", 2)
             cam_recognition.main(model, cam, person_dict)
         except Exception:
             msgWithTime(f"{traceback.format_exc()}", 0)

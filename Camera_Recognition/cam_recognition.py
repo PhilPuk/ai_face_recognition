@@ -5,6 +5,7 @@ from Detection import face_detection as det
 from Image_Recognition import face_recognition as rec
 
 def main(model, cam, person_dict):
+    cam.cam = cv2.VideoCapture(0)
     while True:
         ret, img = cam.cam.read()
         if ret:

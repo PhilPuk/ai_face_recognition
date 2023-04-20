@@ -167,15 +167,15 @@ def main():
     global model_path
     global haarCascadePath
     global names_txt_path
-    try:
-        msgWithTime("Initializing program!", 1)
-        # Everything to initialize before main loop
-        model = Model(model_path, haarCascadePath, names_txt_path)
-        cam = Camera([640,480])
-        msgWithTime("Finished initializing! Programm starting!", 1)
-        msgWithTime("Welcome to AI_FACE_Recognition!", 1)
-        while True:
-            msgWithTime("(1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit", 2)
+    msgWithTime("Initializing program!", 1)
+    # Everything to initialize before main loop
+    model = Model(model_path, haarCascadePath, names_txt_path)
+    cam = Camera([640,480])
+    msgWithTime("Finished initializing! Programm starting!", 1)
+    msgWithTime("Welcome to AI_FACE_Recognition!", 1)
+    while True:
+        msgWithTime("(1) Dataset (2) Modell, (3) Detection, (4) Recognition, (5) Camera, (6) Help, (7) Exit", 2)
+        try:
             input = logInput("Input: ")
             if input == "1":
                 Dataset(cam, model)
@@ -193,8 +193,9 @@ def main():
                 break
             else:
                 msgWithTime("Invalid input, pls try again!", 0)
-        msgWithTime("Exiting programm.", 1)
-    except Exception:
-        msgWithTime(f"{traceback.format_exc()}", 0)
-        msgWithTime(f"Exited programm by error above", 0)  
+        except Exception:
+            msgWithTime(f"{traceback.format_exc()}", 0)
+            msgWithTime(f"Exited programm by error above", 0)  
+    msgWithTime("Exiting programm.", 1)
+
 main()

@@ -4,7 +4,7 @@ from skimage import io
 import cv2
 sys.path.append('./')
 import Parallelized.misc as misc
-import 
+import classes.camera as Cam
 
 
 class System:
@@ -13,7 +13,9 @@ class System:
         self.cv2.CascadeClassifier(self.haardcascade_path)
         self.font = cv2.FONT_HERSHEY_TRIPLEX
         
+
     def main(self):
+        cam = Cam(640,360)
         cam.cam = cv2.VideoCapture(0)
         while True:
             # Capture frame-by-frame
